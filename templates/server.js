@@ -91,7 +91,7 @@ app.post('/api/login', (req, res) => {
   }
 });
 
-// ✅ NEW: Get user history
+//  NEW: Get user history
 app.get('/api/history/:email', (req, res) => {
   try {
     const history = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8'));
@@ -102,7 +102,7 @@ app.get('/api/history/:email', (req, res) => {
   }
 });
 
-// ✅ NEW: Save test result
+// NEW: Save test result
 app.post('/api/history', (req, res) => {
   const { email, result } = req.body;
   
@@ -173,7 +173,7 @@ Keep it short and beginner friendly.` // instruction to AI
     res.status(500).json({ reply: "Something went wrong, please try again." });
   }
 });
-// ✅ AI SOLUTION API (USED BY QUESTION BANK)
+//  AI SOLUTION API (USED BY QUESTION BANK)
 app.post("/api/ai", async (req, res) => {
 
   const { question, doubt } = req.body;
