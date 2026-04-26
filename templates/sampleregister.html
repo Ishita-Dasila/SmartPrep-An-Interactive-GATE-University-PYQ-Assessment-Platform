@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SmartPrep - Register</title>
+  <style>
+    body { 
+        margin: 0; 
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f8f8f8; 
+        display: flex; 
+        flex-direction: column; 
+        height: 100vh; 
+    }
+
+    .navbar { 
+        background-color: white; 
+        padding: 20px 60px; 
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        border-bottom: 1px solid #ddd; 
+    }
+    .navbar h2 { 
+        margin: 0; 
+        font-size: 22px; 
+        font-weight: bold; 
+    }
+    .navbar a { 
+        margin-left: 25px; 
+        color: black; 
+        font-weight: bold; 
+    }
+
+    .register-section { 
+        flex: 1; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    .container { 
+        width: 900px; 
+        height: 520px; 
+        background-color: white;
+        display: flex; 
+        border-radius: 10px; 
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+    }
+
+    .left { 
+        width: 50%; 
+        background-color: black; 
+        color: white; 
+        padding: 50px;
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+    }
+    .left h1 { 
+        font-size: 32px; 
+        margin-bottom: 20px; 
+    }
+    .left p { 
+        line-height: 1.8; 
+        color: #ccc; 
+    }
+
+    .right { 
+        width: 50%; 
+        padding: 60px; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+    }
+    .right h2 { 
+        margin-bottom: 30px; 
+        font-size: 24px; 
+    }
+
+    input { 
+        width: 100%; 
+        padding: 12px; 
+        margin-bottom: 18px;
+        border-radius: 6px; 
+        border: 1px solid #ccc; 
+        font-size: 14px; 
+        box-sizing: border-box; 
+    }
+    input:focus { 
+        outline: none; 
+        border: 1px solid black; 
+    }
+
+    button { 
+        padding: 14px; 
+        border: none; 
+        background-color: black;
+        color: white; 
+        font-size: 15px; 
+        cursor: pointer; 
+        width: 100%; 
+    }
+    button:hover { 
+        background-color: #333; 
+    }
+
+    .quote { 
+        margin-top: 15px; 
+        font-size: 13px; 
+        color: #777; 
+        text-align: center; 
+    }
+
+    .error-msg { 
+        color: red; 
+        font-size: 12px; 
+        margin-top: -14px;
+        margin-bottom: 10px; 
+        display: none; 
+    }
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+  <h2>SmartPrep</h2>
+  <div>
+    <a href="samplefront.html">Home</a>
+    <a href="samplelogin.html">Login</a>
+    <a href="#">Register</a>
+    <a href="sampledashboard.html">Dashboard</a>
+  </div>
+</div>
+
+<div class="register-section">
+  <div class="container">
+    <div class="left">
+      <h1>Create Your Account</h1>
+      <p>
+        Practice Previous Year Questions daily.<br>
+        Track your performance and accuracy.<br>
+        Improve weak topics instantly.<br><br>
+        <strong>"Small daily improvements lead to big exam victories."</strong>
+      </p>
+    </div>
+    <div class="right">
+      <h2>Register Yourself</h2>
+      <form id="registerForm" autocomplete="off">
+        <input type="text" id="fullName" placeholder="Enter your full name" autocomplete="name">
+        <div class="error-msg" id="nameError">Name must be at least 3 characters and not just spaces.</div>
+
+        <input type="email" id="email" placeholder="Enter your Email ID" autocomplete="email">
+        <div class="error-msg" id="emailError">Please enter a valid email with a real domain (e.g. name@gmail.com)</div>
+
+        <input type="password" id="password" placeholder="Password" autocomplete="new-password">
+        <div class="error-msg" id="passwordError">Password must be at least 6 characters with 1 letter and 1 number.</div>
+
+        <button type="submit">Register</button>
+      </form>
+      <div class="quote">Already have an account? <a href="samplelogin.html">Login here</a></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function validateName(name) {
+    return name.trim().length >= 3;
+  }
+
+  function validateEmail(email) {
+    var pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    if (!pattern.test(email)) return false;
+    var afterAt = email.substring(email.indexOf("@") + 1);
+    if (afterAt.startsWith(".")) return false;
+    var validTLDs = ["com", "in", "org", "net", "edu", "co", "ac", "io", "me", "dev"];
+    var tld = email.substring(email.lastIndexOf(".") + 1).toLowerCase();
+    return validTLDs.includes(tld);
+  }
+
+  function validatePassword(password) {
+    if (password.length < 6) return false;
+    return /[a-zA-Z]/.test(password) && /[0-9]/.test(password);
+  }
+
+  document.getElementById('registerForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    var name     = document.getElementById('fullName').value;
+    var email    = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+
+    document.getElementById('nameError').style.display     = 'none';
+    document.getElementById('emailError').style.display    = 'none';
+    document.getElementById('passwordError').style.display = 'none';
+
+    var isValid = true;
+
+    if (!validateName(name)) {
+      document.getElementById('nameError').style.display = 'block';
+      isValid = false;
+    }
+    if (!validateEmail(email)) {
+      document.getElementById('emailError').style.display = 'block';
+      isValid = false;
+    }
+    if (!validatePassword(password)) {
+      document.getElementById('passwordError').style.display = 'block';
+      isValid = false;
+    }
+
+    if (!isValid) return;
+
+    // ✅ Send to server
+    fetch('http://localhost:3000/api/register', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name: name.trim(), email, password })
+    })
+    .then(res => res.json())
+    .then(data => {
+      if (data.error) {
+        document.getElementById('emailError').textContent = data.error;
+        document.getElementById('emailError').style.display = 'block';
+      } else {
+        alert("Registration successful! Please login.");
+        window.location.href = "samplelogin.html";
+      }
+    })
+    .catch(err => {
+      alert("Registration failed. Please try again.");
+      console.error(err);
+    });
+  });
+</script>
+
+</body>
+</html>

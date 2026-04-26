@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SmartPrep - Programming Question Bank</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<style>
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+h2 {
+  background: linear-gradient(90deg, #111, #333);
+  color: white;
+  padding: 16px;
+  margin: 0;
+  font-size: 20px;
+}
+
+/* FILTER BAR */
+label {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+select, input {
+  padding: 8px 10px;
+  margin: 8px 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+button {
+  padding: 8px 14px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: #111;
+  color: white;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #333;
+  transform: scale(1.03);
+}
+
+/* QUESTION CARD */
+.box {
+  background: white;
+  padding: 16px;
+  margin: 14px auto;
+  border-radius: 10px;
+  width: 90%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-left: 6px solid #111;
+  transition: 0.2s ease;
+}
+
+.box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* QUESTION TEXT */
+.box b {
+  font-size: 15px;
+}
+
+/* SOLUTION BOX */
+.solution {
+  margin-top: 12px;
+  padding: 12px;
+  background: #f9fafb;
+  border-left: 4px solid #2ecc71;
+  border-radius: 6px;
+  display: none;
+  font-size: 14px;
+}
+
+/* BUTTON GROUP SPACING */
+.box button {
+  margin-top: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .box {
+    width: 95%;
+  }
+
+  select, input {
+    width: 90%;
+  }
+}
+.navbar {
+  background-color: black;
+  padding: 12px 30px;   /* reduced from 20px 60px */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #222;
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.solution pre {
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+.auto-expand {
+  width: 100%;
+  min-height: 120px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+.solution code {
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.navbar {
+  background-color: black;
+  padding: 15px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #222;
+}
+
+/* FIX: keep heading aligned properly */
+.navbar h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+/* right side container */
+.navbar div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* links */
+.navbar a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+/* logout button */
+.logout-btn {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 9px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.logout-btn:hover {
+  background: #d32f2f;
+}
+
+.logout-btn:active {
+  transform: scale(0.97);
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<div class="navbar">
+  <h2>SmartPrep - Programming Question Bank</h2>
+  <div>
+  <a href="samplefront.html">Home</a>
+  <a href="sampledashboard.html">Dashboard</a>
+  <button class="logout-btn" onclick="logout()">Logout</button>
+</div>
+</div>
+<!-- FILTERS -->
+<label>Difficulty:</label>
+<select id="difficulty">
+  <option value="">All</option>
+  <option value="easy">Easy</option>
+  <option value="medium">Medium</option>
+  <option value="hard">Hard</option>
+</select>
+
+<label>Topic:</label>
+<input type="text" id="topic" placeholder="e.g. Graph, DP">
+
+<button onclick="loadQuestions()">Load Questions</button>
+
+<!-- QUESTIONS -->
+<div id="questions"></div>
+
+<script>
+
+// ===== DATA =====
+var questionsData = [];
+
+// ===== LOAD JSON =====
+fetch("programming_questions.json")
+.then(res => res.json())
+.then(data => {
+  questionsData = data;
+  console.log("Questions loaded:", questionsData);
+})
+.catch(err => console.log("Error loading questions:", err));
+
+
+// ===== CLEAN TEXT =====
+function cleanText(text){
+  return text
+    .replace(/[_\-]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+
+// ===== LOAD QUESTIONS =====
+function loadQuestions(){
+
+  var difficulty = document.getElementById("difficulty").value;
+  var topic = document.getElementById("topic").value.toLowerCase();
+
+  var questionDiv = document.getElementById("questions");
+  questionDiv.innerHTML = "";
+
+  var count = 0;
+
+  for(var i = 0; i < questionsData.length; i++){
+
+    var qObj = questionsData[i];
+
+    var title = qObj.title || qObj.question || "Untitled";
+    var description = qObj.description || qObj.Explanation || "";
+
+    var diff = (qObj.difficulty || qObj["Difficulty Level"] || "").toLowerCase();
+    var top = (qObj.topic || qObj.Topic || "").toLowerCase();
+
+    // ===== FILTER =====
+    if(difficulty && !diff.includes(difficulty)) continue;
+    if(topic && !top.includes(topic)) continue;
+
+    var questionText = cleanText(title + " " + description);
+
+    if(questionText.length < 20) continue;
+
+    count++;
+
+    var box = document.createElement("div");
+    box.className = "box";
+
+    box.innerHTML =
+      "<b>Q" + count + ":</b><br>" + questionText + "<br><br>" +
+      "<b>Difficulty:</b> <span style='color:" +
+(diff === "easy" ? "green" : diff === "medium" ? "orange" : "red") +
+"; font-weight:bold'>" + (diff || "N/A") + "</span><br>" +
+      "<b>Topic:</b> " + (top || "General") + "<br><br>";
+
+    // ===== SOLUTION BUTTON =====
+    var solBtn = document.createElement("button");
+    solBtn.innerText = "Show Solution";
+    solBtn.onclick = (function(qText, id){
+      return function(){
+        showSolution(id, qText);
+      }
+    })(questionText, count);
+
+    // ===== VIDEO BUTTON =====
+    var vidBtn = document.createElement("button");
+    vidBtn.innerText = "Watch Video";
+    vidBtn.onclick = (function(qText){
+      return function(){
+        openVideo(qText);
+      }
+    })(questionText);
+
+    box.appendChild(solBtn);
+    box.appendChild(vidBtn);
+    // ===== SOLVE BUTTON (NEW) =====
+var aiBtn = document.createElement("button");
+aiBtn.innerText = "Solve Question";
+
+aiBtn.onclick = (function(qText, id){
+  return function(){
+    toggleSolveBox(id);
+  }
+})(questionText, count);
+
+box.appendChild(aiBtn);
+
+// ===== AI ANSWER BOX =====
+var aiDiv = document.createElement("div");
+aiDiv.id = "ai" + count;
+aiDiv.style.display = "none";
+aiDiv.style.marginTop = "10px";
+aiDiv.style.padding = "10px";
+aiDiv.style.background = "#f9f9f9";
+aiDiv.style.borderLeft = "4px solid #3498db";
+
+aiDiv.innerHTML = `
+<textarea id="userAns${count}" 
+  class="auto-expand"
+  placeholder="Write your answer here..."
+  oninput="autoResize(this)"></textarea>
+
+  <br>
+
+  <button onclick="checkAIAnswer(${count}, \`${questionText}\`)">
+    Check Answer (AI)
+  </button>
+
+  <div id="aiFeedback${count}" style="margin-top:10px;"></div>
+`;
+
+box.appendChild(aiDiv);
+
+    // ===== SOLUTION DIV =====
+    var solDiv = document.createElement("div");
+    solDiv.id = "sol" + count;
+    solDiv.className = "solution";
+
+    box.appendChild(solDiv);
+    questionDiv.appendChild(box);
+  }
+
+  if(count === 0){
+    questionDiv.innerHTML = "No questions found.";
+  }
+}
+
+function toggleSolveBox(id){
+  var div = document.getElementById("ai" + id);
+
+  if(div.style.display === "none"){
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+// ===== SHOW SOLUTION =====
+function showSolution(index, question){
+
+  var div = document.getElementById("sol" + index);
+
+  if(div.dataset.loaded === "true"){
+    div.style.display = (div.style.display === "none") ? "block" : "none";
+    div.scrollIntoView({ behavior: "smooth", block: "start" });
+    return;
+  }
+
+  if(localStorage.getItem(question)){
+    div.innerHTML =
+      "<b>Solution:</b><br>" +
+      marked.parse(localStorage.getItem(question));
+
+    div.style.display = "block";
+    div.dataset.loaded = "true";
+
+    setTimeout(() => {
+      div.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 100);
+
+    return;
+  }
+
+  div.style.display = "block";
+  div.innerHTML = "<i>Generating solution...</i>";
+
+  fetch("http://localhost:3000/api/ai", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      question: `
+You are an expert DSA mentor and coding interviewer.
+
+Question:
+${question}
+
+IMPORTANT OUTPUT FORMAT:
+
+1. Explanation (bullet points)
+2. Approach (algorithm steps)
+3. Complexity (Big-O)
+4. Optimized Code
+
+VERY IMPORTANT:
+- Code MUST be inside triple backticks
+- Always specify language like:
+
+\`\`\`python
+# code here
+\`\`\`
+
+DO NOT skip code section.
+DO NOT write code outside markdown block.`
+    })
+  })
+  .then(res => res.json())
+  .then(data => {
+
+    div.innerHTML =
+      "<b>Solution:</b><br>" +
+      marked.parse(data.answer || "No response");
+
+    localStorage.setItem(question, data.answer);
+    div.dataset.loaded = "true";
+
+    setTimeout(() => {
+      div.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 100);
+
+  })
+  .catch(() => {
+    div.innerHTML = "Failed to load solution";
+  });
+}
+function autoResize(el) {
+  el.style.height = "auto";
+  el.style.height = el.scrollHeight + "px";
+}
+function checkAIAnswer(id, question){
+
+  var answer = document.getElementById("userAns" + id).value;
+  var feedback = document.getElementById("aiFeedback" + id);
+
+  if(answer.trim() === ""){
+    feedback.innerHTML = "<span style='color:red'>Write an answer first!</span>";
+    return;
+  }
+
+  feedback.innerHTML = "⏳ AI is evaluating your answer...";
+
+  fetch("http://localhost:3000/api/ai", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      question: `
+You are an expert university examiner.
+
+Question:
+${question}
+
+Student Answer:
+${answer}
+
+Evaluate strictly:
+1. Correctness (out of 10)
+2. Missing points
+3. Improvements
+4. Final score suggestion
+
+Be structured and concise.
+      `
+    })
+  })
+  .then(res => res.json())
+  .then(data => {
+    feedback.innerHTML =
+      "<div style='background:white;padding:10px;border-radius:6px'>" +
+      marked.parse(data.answer || "No response") +
+      "</div>";
+  })
+  .catch(() => {
+    feedback.innerHTML = "<span style='color:red'>AI evaluation failed</span>";
+  });
+}
+
+// ===== YOUTUBE =====
+function openVideo(question){
+  var url = "https://www.youtube.com/results?search_query=" + encodeURIComponent(question);
+  window.open(url);
+}
+function logout() {
+  sessionStorage.clear();
+  localStorage.clear();
+  alert("Logged out successfully!");
+  window.location.href = "samplefront.html";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SmartPrep - GATE Quiz</title>
+
+  <!-- this stops live server from auto refreshing the page -->
+  <script>
+    if (window.WebSocket) {
+      var OldWebSocket = window.WebSocket;
+      window.WebSocket = function(theUrl) {
+        if (theUrl && theUrl.indexOf('ws://127.0.0.1') !== -1) {
+          return { send: function() {}, close: function() {} };
+        }
+        return new OldWebSocket(theUrl);
+      };
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: #f3f3f3;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 60px;
+      background: black;
+      border-bottom: 1px solid #ddd;
+      align-items: center;
+    }
+
+    .navbar h2 {
+      margin: 0;
+      font-size: 22px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .navbar a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 30px;
+      background: white;
+      border-bottom: 1px solid #ddd;
+      align-items: center;
+    }
+
+    .timer {
+      background: black;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .left {
+      flex: 2;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+    }
+
+    .right {
+      flex: 1;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .options button {
+      display: block;
+      width: 100%;
+      margin: 8px 0;
+      padding: 12px;
+      border: 1px solid #ccc;
+      background: #eee;
+      cursor: pointer;
+      border-radius: 5px;
+      text-align: left;
+    }
+
+    .options button:hover {
+      background: #ddd;
+    }
+
+    .controls {
+      margin-top: 20px;
+    }
+
+    .controls button {
+      padding: 10px 20px;
+      margin-right: 10px;
+      background: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .nav-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .nav-btn {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      border: 1px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .nav-btn.active {
+      background: black;
+      color: white;
+    }
+
+    .nav-btn.answered {
+      background: #1976D2;
+      color: white;
+    }
+
+    select {
+      padding: 10px;
+      margin: 20px;
+      width: 300px;
+    }
+
+    .review-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .review-list li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 14px;
+      margin: 6px 0;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .review-list li:hover {
+      background: #f0f0f0;
+    }
+
+    .review-list li .q-num {
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    .review-list li .q-status {
+      font-size: 13px;
+      padding: 3px 10px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .status-correct {
+      background: #e8f5e9;
+      color: #2e7d32;
+    }
+
+    .status-wrong {
+      background: #ffebee;
+      color: #c62828;
+    }
+
+    .status-skipped {
+      background: #f5f5f5;
+      color: #888;
+    }
+
+    .review-q-panel {
+      padding: 15px 0;
+    }
+
+    .review-q-panel h3 {
+      margin-top: 0;
+    }
+
+    .review-option {
+      display: block;
+      width: 100%;
+      margin: 7px 0;
+      padding: 11px 14px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      text-align: left;
+      font-size: 14px;
+      cursor: default;
+      background: #fafafa;
+    }
+
+    .review-option.correct {
+      background: #e8f5e9;
+      border-color: #4CAF50;
+      font-weight: bold;
+    }
+
+    .review-option.wrong {
+      background: #ffebee;
+      border-color: #e53935;
+    }
+
+    .review-option.user-pick {
+      outline: 2px solid #1976D2;
+    }
+
+    .explain-btn {
+      margin-top: 12px;
+      padding: 9px 18px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .explain-box {
+      margin-top: 12px;
+      background: #f9f9f9;
+      padding: 12px 14px;
+      border-left: 4px solid #007bff;
+      border-radius: 4px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .score-summary {
+      background: #f0f8ff;
+      border: 2px solid #4CAF50;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .score-summary h2 {
+      margin: 0 0 8px 0;
+      color: #2e7d32;
+    }
+
+    .score-pills {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 12px 0;
+      flex-wrap: wrap;
+    }
+
+    .score-pill {
+      padding: 8px 18px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .pill-correct {
+      background: #e8f5e9;
+      color: #2e7d32;
+    }
+
+    .pill-wrong {
+      background: #ffebee;
+      color: #c62828;
+    }
+
+    .pill-skip {
+      background: #f5f5f5;
+      color: #888;
+    }
+
+    .action-btns {
+      margin-top: 14px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .action-btns button {
+      padding: 10px 22px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .btn-dash {
+      background: #4CAF50;
+      color: white;
+    }
+
+    .btn-restart {
+      background: #2196F3;
+      color: white;
+    }
+    .logout-btn {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px; /* rectangle look */
+  transition: 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: #d32f2f;
+}
+
+.logout-btn:active {
+  transform: scale(0.97);
+}
+  </style>
+</head>
+<body>
+
+<!-- top navigation bar -->
+<div class="navbar">
+  <h2>SmartPrep - GATE Quiz</h2>
+  <div>
+    <a href="samplefront.html">Home</a>
+    <a href="samplelogin.html">Login</a>
+    <a href="sampleregister.html">Register</a>
+    <a href="sampledashboard.html">Dashboard</a>
+    <button class="logout-btn" onclick="logout()">Logout</button>
+  </div>
+</div>
+
+<!-- timer bar at the top -->
+<div class="topbar">
+  <div class="timer" id="timer">00:00</div>
+</div>
+
+<!-- topic filter dropdown -->
+<div style="text-align:center;">
+  <select id="topicSelect">
+    <option value="all">All Topics</option>
+  </select>
+</div>
+
+<!-- main layout: quiz on left, question numbers on right -->
+<div class="container">
+  <div class="left" id="leftPanel">
+    <div id="quiz"></div>
+    <div class="controls" id="controls">
+      <button type="button" onclick="prevQuestion()">Prev</button>
+      <button type="button" onclick="nextQuestion()">Next</button>
+      <button type="button" onclick="submitQuiz()">Submit</button>
+    </div>
+  </div>
+
+  <div class="right" id="rightPanel">
+    <h3>Questions</h3>
+    <div class="nav-grid" id="navGrid"></div>
+  </div>
+</div>
+
+<script>
+
+  // global variables to store quiz data and state
+  var mcqs = [];
+  var todayQuestions = [];
+  var currentIndex = 0;
+  var answers = {};
+  var time = 0;
+  var timerInterval;
+  var isSubmitted = false;
+  var topicListenerAdded = false;
+
+  // stop any form from submitting accidentally
+  document.addEventListener('submit', function(e) {
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    return false;
+  }, true);
+
+  // load all quiz questions from the json file
+  fetch("questions.json").then(function(response) {
+    return response.json();
+  }).then(function(data) {
+    mcqs = data;
+    populateTopics();
+    startQuiz();
+  });
+
+  // this function fills the topic dropdown with all unique topics
+  function populateTopics() {
+    var topicDropdown = document.getElementById("topicSelect");
+    topicDropdown.innerHTML = '<option value="all">All Topics</option>';
+
+    // collect all unique topic names
+    var allTopics = [];
+    var i = 0;
+    while (i < mcqs.length) {
+      var topicName = mcqs[i].topic;
+      var alreadyExists = false;
+
+      var j = 0;
+      while (j < allTopics.length) {
+        if (allTopics[j] === topicName) {
+          alreadyExists = true;
+        }
+        j = j + 1;
+      }
+
+      if (!alreadyExists) {
+        allTopics.push(topicName);
+      }
+
+      i = i + 1;
+    }
+
+    // create an option for each topic and add to dropdown
+    var t = 0;
+    while (t < allTopics.length) {
+      var newOption = document.createElement("option");
+      newOption.value = allTopics[t];
+      newOption.innerText = allTopics[t];
+      topicDropdown.appendChild(newOption);
+      t = t + 1;
+    }
+
+    // add change listener only once
+    if (!topicListenerAdded) {
+      topicDropdown.addEventListener("change", function() {
+        if (!isSubmitted) {
+          startQuiz();
+        }
+      });
+      topicListenerAdded = true;
+    }
+  }
+
+  // this function starts or restarts the quiz fresh
+  function startQuiz() {
+    if (isSubmitted) {
+      return;
+    }
+
+    var selectedTopic = document.getElementById("topicSelect").value;
+
+    // filter questions by selected topic
+    var filteredQuestions = [];
+    if (selectedTopic === "all") {
+      var f = 0;
+      while (f < mcqs.length) {
+        filteredQuestions.push(mcqs[f]);
+        f = f + 1;
+      }
+    } else {
+      var f = 0;
+      while (f < mcqs.length) {
+        if (mcqs[f].topic === selectedTopic) {
+          filteredQuestions.push(mcqs[f]);
+        }
+        f = f + 1;
+      }
+    }
+
+    // shuffle the filtered questions randomly
+    filteredQuestions.sort(function() {
+      return Math.random() - 0.5;
+    });
+
+    // take only first 10 questions
+    todayQuestions = [];
+    var limit = 10;
+    if (filteredQuestions.length < 10) {
+      limit = filteredQuestions.length;
+    }
+    var s = 0;
+    while (s < limit) {
+      todayQuestions.push(filteredQuestions[s]);
+      s = s + 1;
+    }
+
+    // reset state
+    currentIndex = 0;
+    answers = {};
+
+    document.getElementById("controls").style.display = "block";
+
+    startTimer();
+    renderQuizNav();
+    showQuestion();
+  }
+
+  // this function resets everything and starts a brand new quiz
+  function restartQuiz() {
+    isSubmitted = false;
+
+    // put back the original right panel with question number buttons
+    document.getElementById("rightPanel").innerHTML = '<h3>Questions</h3><div class="nav-grid" id="navGrid"></div>';
+
+    // show the controls again
+    document.getElementById("controls").style.display = "block";
+
+    startQuiz();
+  }
+
+  // this function starts the timer from zero
+  function startTimer() {
+    clearInterval(timerInterval);
+    time = 0;
+
+    timerInterval = setInterval(function() {
+      time = time + 1;
+
+      var minutes = Math.floor(time / 60);
+      var seconds = time % 60;
+
+      // add leading zero if needed
+      var minuteString = String(minutes);
+      if (minuteString.length < 2) {
+        minuteString = "0" + minuteString;
+      }
+
+      var secondString = String(seconds);
+      if (secondString.length < 2) {
+        secondString = "0" + secondString;
+      }
+
+      document.getElementById("timer").innerText = minuteString + ":" + secondString;
+    }, 1000);
+  }
+
+  // this function shows the current question on screen
+  function showQuestion() {
+    var currentQuestion = todayQuestions[currentIndex];
+
+    var questionHTML = "<h3>Question " + (currentIndex + 1) + ' <span style="font-size:13px;color:#888;">— ' + currentQuestion.topic + "</span></h3>";
+    questionHTML = questionHTML + "<p>" + currentQuestion.question + "</p>";
+    questionHTML = questionHTML + '<div class="options">';
+
+    // loop through each option and create a button
+    for (var optionKey in currentQuestion.options) {
+      var optionText = currentQuestion.options[optionKey];
+
+      // highlight the selected answer if user already picked one
+      var selectedStyle = "";
+      if (answers[currentIndex] === optionKey) {
+        selectedStyle = "style='background:#bbb'";
+      }
+
+      questionHTML = questionHTML + "<button type='button' " + selectedStyle + " onclick=\"selectAnswer('" + optionKey + "')\">" + optionKey + ": " + optionText + "</button>";
+    }
+
+    questionHTML = questionHTML + "</div>";
+
+    document.getElementById("quiz").innerHTML = questionHTML;
+
+    updateQuizNav();
+  }
+
+  // this function saves the answer the user clicked
+  function selectAnswer(selectedOption) {
+    answers[currentIndex] = selectedOption;
+    showQuestion();
+  }
+
+  // this function creates the numbered circle buttons on the right side
+  function renderQuizNav() {
+    var navGrid = document.getElementById("navGrid");
+    if (!navGrid) {
+      return;
+    }
+    navGrid.innerHTML = "";
+
+    var i = 0;
+    while (i < todayQuestions.length) {
+      var circleButton = document.createElement("div");
+      circleButton.className = "nav-btn";
+      circleButton.innerText = i + 1;
+
+      // clicking a number jumps to that question
+      circleButton.onclick = function(questionIndex) {
+        return function() {
+          currentIndex = questionIndex;
+          showQuestion();
+        };
+      }(i);
+
+      navGrid.appendChild(circleButton);
+
+      i = i + 1;
+    }
+  }
+
+  // this function highlights which question is active and which are answered
+  function updateQuizNav() {
+    var allNavButtons = document.querySelectorAll(".nav-btn");
+
+    var i = 0;
+    while (i < allNavButtons.length) {
+      var button = allNavButtons[i];
+
+      // remove old classes first
+      button.classList.remove("active");
+      button.classList.remove("answered");
+
+      // add active class to current question
+      if (i === currentIndex) {
+        button.classList.add("active");
+      }
+
+      // add answered class if user picked an answer for this question
+      if (answers[i]) {
+        button.classList.add("answered");
+      }
+
+      i = i + 1;
+    }
+  }
+
+  // go to next question
+  function nextQuestion() {
+    if (currentIndex < todayQuestions.length - 1) {
+      currentIndex = currentIndex + 1;
+      showQuestion();
+    }
+  }
+
+  // go to previous question
+  function prevQuestion() {
+    if (currentIndex > 0) {
+      currentIndex = currentIndex - 1;
+      showQuestion();
+    }
+  }
+
+  // this function submits the quiz and shows the result
+  function submitQuiz() {
+    // don't submit twice
+    if (isSubmitted) {
+      return;
+    }
+
+    isSubmitted = true;
+    clearInterval(timerInterval);
+
+    // count correct answers
+    var score = 0;
+    var i = 0;
+    while (i < todayQuestions.length) {
+      if (answers[i] === todayQuestions[i].answer) {
+        score = score + 1;
+      }
+      i = i + 1;
+    }
+
+    var streak = updateStreak();
+    var selectedTopic = document.getElementById("topicSelect").value;
+
+    // hide the prev/next/submit buttons
+    document.getElementById("controls").style.display = "none";
+
+    // count wrong and skipped
+    var wrongCount = countWrong();
+    var skippedCount = countSkipped();
+
+    // build the score summary and review panel on the left side
+    var leftHTML = '<div class="score-summary">'
+      + '<h2>Quiz Complete!</h2>'
+      + '<div class="score-pills">'
+      + '<span class="score-pill pill-correct">Correct: ' + score + '</span>'
+      + '<span class="score-pill pill-wrong">Wrong: ' + wrongCount + '</span>'
+      + '<span class="score-pill pill-skip">Skipped: ' + skippedCount + '</span>'
+      + '</div>'
+      + '<p style="margin:4px 0;font-size:14px;">Streak: <strong>' + streak + ' days</strong></p>'
+      + '<div class="action-btns">'
+      + '<button class="btn-dash" type="button" onclick="window.location.href=\'sampledashboard.html\'">Dashboard</button>'
+      + '<button class="btn-restart" type="button" onclick="restartQuiz()">New Quiz</button>'
+      + '</div>'
+      + '<p style="font-size:12px;color:#666;margin-top:10px;" id="saveStatus">Saving...</p>'
+      + '</div>'
+      + '<div id="reviewQuestionPanel"></div>';
+
+    document.getElementById("quiz").innerHTML = leftHTML;
+
+    // build the review list on the right side
+    document.getElementById("rightPanel").innerHTML = buildReviewList();
+
+    // save result to the server
+    saveToServer(score, selectedTopic, streak);
+  }
+
+  // count how many answers were wrong
+  function countWrong() {
+    var wrongCount = 0;
+    var i = 0;
+    while (i < todayQuestions.length) {
+      if (answers[i] && answers[i] !== todayQuestions[i].answer) {
+        wrongCount = wrongCount + 1;
+      }
+      i = i + 1;
+    }
+    return wrongCount;
+  }
+
+  // count how many questions were skipped
+  function countSkipped() {
+    var skippedCount = 0;
+    var i = 0;
+    while (i < todayQuestions.length) {
+      if (!answers[i]) {
+        skippedCount = skippedCount + 1;
+      }
+      i = i + 1;
+    }
+    return skippedCount;
+  }
+
+  // this function builds the review list shown on the right side after submit
+  function buildReviewList() {
+    var listHTML = '<h3>Question Review</h3><ul class="review-list">';
+
+    var i = 0;
+    while (i < todayQuestions.length) {
+      var question = todayQuestions[i];
+      var userAnswer = answers[i];
+
+      var statusClass = "";
+      var statusText = "";
+
+      if (!userAnswer) {
+        statusClass = "status-skipped";
+        statusText = "Skipped";
+      } else if (userAnswer === question.answer) {
+        statusClass = "status-correct";
+        statusText = "Correct";
+      } else {
+        statusClass = "status-wrong";
+        statusText = "Wrong";
+      }
+
+      listHTML = listHTML + '<li onclick="openReviewQuestion(' + i + ')">'
+        + '<span class="q-num">Q' + (i + 1) + '</span>'
+        + '<span class="q-status ' + statusClass + '">' + statusText + '</span>'
+        + '</li>';
+
+      i = i + 1;
+    }
+
+    listHTML = listHTML + '</ul>';
+    return listHTML;
+  }
+
+  // this function shows a specific question in review mode when clicked from the list
+  function openReviewQuestion(questionIndex) {
+    var question = todayQuestions[questionIndex];
+    var userAnswer = answers[questionIndex];
+    var correctAnswer = question.answer;
+
+    // build the options with color coding
+    var optionsHTML = "";
+    for (var optionKey in question.options) {
+      var optionText = question.options[optionKey];
+      var optionClass = "review-option";
+
+      // green if correct answer
+      if (optionKey === correctAnswer) {
+        optionClass = optionClass + " correct";
+      }
+
+      // red if user picked this and it is wrong
+      if (optionKey === userAnswer && optionKey !== correctAnswer) {
+        optionClass = optionClass + " wrong";
+      }
+
+      // blue outline if this is what user picked
+      if (optionKey === userAnswer) {
+        optionClass = optionClass + " user-pick";
+      }
+
+      optionsHTML = optionsHTML + '<div class="' + optionClass + '">' + optionKey + ": " + optionText + '</div>';
+    }
+
+    // show message about correct/wrong/skipped
+    var statusMessage = "";
+    if (!userAnswer) {
+      statusMessage = '<p style="color:#888;font-weight:bold;">You skipped this question. Correct answer: <strong>' + correctAnswer + '</strong></p>';
+    } else if (userAnswer === correctAnswer) {
+      statusMessage = '<p style="color:#2e7d32;font-weight:bold;">Your answer <strong>' + userAnswer + '</strong> is correct!</p>';
+    } else {
+      statusMessage = '<p style="color:#c62828;font-weight:bold;">You answered <strong>' + userAnswer + '</strong>. Correct answer: <strong>' + correctAnswer + '</strong></p>';
+    }
+
+    // show everything in the review panel
+    var reviewPanelHTML = '<div class="review-q-panel">'
+      + '<h3>Q' + (questionIndex + 1) + ': ' + question.question + '</h3>'
+      + optionsHTML
+      + statusMessage
+      + '<button class="explain-btn" type="button" onclick="explainReviewQuestion(' + questionIndex + ')">Explain Answer</button>'
+      + '<div id="reviewExplanation"></div>'
+      + '</div>';
+
+    document.getElementById("reviewQuestionPanel").innerHTML = reviewPanelHTML;
+
+    // scroll the left panel down so user can see the review question
+    document.getElementById("leftPanel").scrollTop = 300;
+  }
+
+  // this function calls the server to get an AI explanation for a question
+  function explainReviewQuestion(questionIndex) {
+    var question = todayQuestions[questionIndex];
+    var userAnswer = answers[questionIndex];
+
+    // if user did not answer, show "No answer"
+    if (!userAnswer) {
+      userAnswer = "No answer";
+    }
+
+    var explanationDiv = document.getElementById("reviewExplanation");
+    explanationDiv.innerHTML = '<p style="color:blue;">Loading explanation...</p>';
+
+    // build the options list as an array of strings
+    var optionsList = [];
+    for (var key in question.options) {
+      optionsList.push(key + ": " + question.options[key]);
+    }
+
+    // call the server to get explanation
+    fetch("http://localhost:3000/explain", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        question: question.question,
+        options: optionsList,
+        userAnswer: userAnswer,
+        correctAnswer: question.answer
+      })
+    }).then(function(response) {
+      return response.json();
+    }).then(function(data) {
+      explanationDiv.innerHTML = '<div class="explain-box">' + data.reply + '</div>';
+    }).catch(function() {
+      explanationDiv.innerHTML = '<p style="color:red;">Error fetching explanation. Is the server running?</p>';
+    });
+  }
+
+  // this function updates and returns the streak count
+  function updateStreak() {
+    var todayDate = new Date().toISOString().slice(0, 10);
+    var lastQuizDate = localStorage.getItem("lastQuizDate");
+    var streak = parseInt(localStorage.getItem("streak") || "0");
+
+    if (lastQuizDate) {
+      var lastDateObject = new Date(lastQuizDate);
+      var todayDateObject = new Date(todayDate);
+      var differenceInMs = todayDateObject - lastDateObject;
+      var differenceInDays = differenceInMs / (1000 * 60 * 60 * 24);
+
+      if (differenceInDays === 1) {
+        // user played yesterday too so streak continues
+        streak = streak + 1;
+      } else if (differenceInDays > 1) {
+        // user missed a day so streak resets
+        streak = 1;
+      }
+    } else {
+      // first time playing ever
+      streak = 1;
+    }
+
+    localStorage.setItem("streak", streak);
+    localStorage.setItem("lastQuizDate", todayDate);
+
+    return streak;
+  }
+
+  // this function saves the quiz result to the server
+  function saveToServer(score, selectedTopic, streak) {
+    var totalQuestions = todayQuestions.length;
+    var finalScore = Math.round((score / totalQuestions) * 100);
+
+    var subjectName = "Mixed Topics";
+    if (selectedTopic !== "all") {
+      subjectName = selectedTopic;
+    }
+
+    var userEmail = sessionStorage.getItem('currentUser');
+    var todayDate = new Date().toISOString().split("T")[0];
+
+    fetch('http://localhost:3000/api/history', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        email: userEmail,
+        result: {
+          date: todayDate,
+          score: finalScore,
+          type: "gate",
+          subject: subjectName,
+          semester: "N/A",
+          unit: "GATE Quiz",
+          keywordsMatched: score,
+          keywordsTotal: totalQuestions
+        }
+      })
+    }).then(function(response) {
+      return response.json();
+    }).then(function(data) {
+      var statusElement = document.getElementById('saveStatus');
+      if (statusElement) {
+        statusElement.innerHTML = 'Result saved!';
+        statusElement.style.color = '#4CAF50';
+      }
+    }).catch(function() {
+      var statusElement = document.getElementById('saveStatus');
+      if (statusElement) {
+        statusElement.innerHTML = 'Server sync failed';
+        statusElement.style.color = '#f44336';
+      }
+    });
+  }
+function logout(){
+  sessionStorage.clear();
+  localStorage.clear();
+  window.location.href = "samplefront.html";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SmartPrep - Descriptive Practice</title>
+
+<!-- this code stops the live server from refreshing the page automatically -->
+<script>
+  if (window.WebSocket) {
+    var OldWebSocket = window.WebSocket;
+    window.WebSocket = function(theUrl) {
+      if (theUrl && theUrl.indexOf('ws://127.0.0.1') !== -1) {
+        return { send: function() {}, close: function() {} };
+      }
+      return new OldWebSocket(theUrl);
+    };
+  }
+</script>
+
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f9f9f9;
+}
+
+.navbar {
+  background-color: black;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+.logout-btn {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px; /* rectangle look */
+  transition: 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: #d32f2f;
+}
+
+.logout-btn:active {
+  transform: scale(0.97);
+}
+.navbar a {
+  margin-left: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  width: 60%;
+  height: 90vh;
+}
+
+.right {
+  width: 40%;
+  padding: 20px;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  width: 90%;
+  height: 80px;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+select {
+  padding: 5px;
+  margin: 0 10px;
+}
+
+#pdfList {
+  margin: 10px 0;
+}
+</style>
+</head>
+<body>
+
+<!-- top navigation bar -->
+<div class="navbar">
+  <h2>SmartPrep - PYQ Practice</h2>
+  <div>
+    <a href="samplefront.html">Home</a>
+    <a href="samplelogin.html">Login</a>
+    <a href="sampleregister.html">Register</a>
+    <a href="sampledashboard.html">Dashboard</a>
+    <button class="logout-btn" onclick="logout()">Logout</button>
+  </div>
+</div>
+
+<!-- dropdowns to filter papers -->
+<div style="text-align:center; margin:20px;">
+
+  <label for="year">Year:</label>
+  <select id="year" onchange="updatePDFList()">
+    <option value="">Select</option>
+    <option value="2025">2025</option>
+    <option value="2024">2024</option>
+    <option value="2023">2023</option>
+    <option value="2022">2022</option>
+  </select>
+
+  <label for="sem">Semester:</label>
+  <select id="sem" onchange="updatePDFList()">
+    <option value="">Select</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+  </select>
+
+  <label for="branch">Branch:</label>
+  <select id="branch" onchange="updatePDFList()">
+    <option value="">Select</option>
+    <option value="AE">Aerospace Engineering</option>
+    <option value="CE">Civil Engineering</option>
+    <option value="COMM">Communication</option>
+    <option value="CSE">Computer Science Engineering</option>
+    <option value="ECE">Electronics and Communication Engineering</option>
+    <option value="EE">Electrical Engineering</option>
+    <option value="BT">Biotechnology</option>
+    <option value="CHEM">Chemistry</option>
+    <option value="MATH">Mathematics</option>
+    <option value="ME">Mechanical Engineering</option>
+    <option value="PE">Petroleum Engineering</option>
+    <option value="PHY">Physics</option>
+  </select>
+
+  <label for="type">Type:</label>
+  <select id="type" onchange="updatePDFList()">
+    <option value="">Select</option>
+    <option value="mid">Mid</option>
+    <option value="end">End</option>
+  </select>
+
+</div>
+
+<!-- pdf buttons will appear here -->
+<div style="text-align:center; margin:10px;" id="pdfList"></div>
+
+<!-- main layout: pdf on left, answer area on right -->
+<div class="container">
+  <div class="left">
+    <iframe id="pdfViewer" src=""></iframe>
+  </div>
+  <div class="right">
+    <p>Please select the PDF to view and answer the questions.</p>
+  </div>
+</div>
+
+<script>
+
+  // these variables store all the data we need
+  var allPapers = [];
+  var keywordData = [];
+  var allSubjectKeywords = [];
+  var currentPaperType = "";
+  var numQuestions = 5;
+  var subparts = [];
+  var attemptPerQuestion = 1;
+  var userAnswers = {};
+  var currentQ = 0;
+  var currentSP = 0;
+  var isSubmitted = false;
+
+  // stop any form from submitting and reloading the page
+  document.addEventListener('submit', function(e) {
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    return false;
+  }, true);
+
+  // load papers data from papers.json file
+  fetch("papers.json").then(function(response) {
+    return response.json();
+  }).then(function(data) {
+    allPapers = data;
+  });
+
+  // load keywords data from keywords.json file
+  fetch("keywords.json").then(function(response) {
+    return response.json();
+  }).then(function(data) {
+    keywordData = data;
+    console.log("Keywords loaded:", keywordData.length);
+  });
+
+  // this function loads the subject dropdown based on semester and branch chosen
+  function loadSubjects() {
+    var semValue = document.getElementById("sem").value;
+    var branchValue = document.getElementById("branch").value;
+
+    // remove old subject dropdown if it exists
+    var oldSubjectSelect = document.getElementById("subject");
+    var oldSubjectLabel = document.getElementById("subject-label");
+    if (oldSubjectSelect) {
+      oldSubjectSelect.remove();
+    }
+    if (oldSubjectLabel) {
+      oldSubjectLabel.remove();
+    }
+
+    // create a new label for subject
+    var subjectLabel = document.createElement("label");
+    subjectLabel.id = "subject-label";
+    subjectLabel.textContent = "Subject:";
+    subjectLabel.style.marginLeft = "10px";
+
+    // create the subject dropdown
+    var subjectSelect = document.createElement("select");
+    subjectSelect.id = "subject";
+    subjectSelect.onchange = loadKeywords;
+
+    // add a default option
+    var defaultOption = document.createElement("option");
+    defaultOption.value = "";
+    defaultOption.textContent = "Select Subject";
+    subjectSelect.appendChild(defaultOption);
+
+    // go through all keyword data and find matching subjects
+    var alreadyAdded = {};
+    var i = 0;
+    while (i < keywordData.length) {
+      var subjectItem = keywordData[i];
+
+      // check if semester and branch match
+      if (subjectItem.semester == semValue && subjectItem.branch.toUpperCase() == branchValue.toUpperCase()) {
+        // only add if we haven't added this subject code before
+        if (!alreadyAdded[subjectItem.subject_code]) {
+          alreadyAdded[subjectItem.subject_code] = true;
+
+          var newOption = document.createElement("option");
+          newOption.value = subjectItem.subject_code;
+          newOption.textContent = subjectItem.subject_name;
+          subjectSelect.appendChild(newOption);
+        }
+      }
+
+      i = i + 1;
+    }
+
+    // add label and dropdown to the filters div
+    var filterContainer = document.querySelector("div[style*='text-align:center']");
+    filterContainer.appendChild(subjectLabel);
+    filterContainer.appendChild(subjectSelect);
+  }
+
+  // this function collects all keywords for the selected subject
+  function loadKeywords() {
+    var selectedCode = document.getElementById("subject").value;
+    allSubjectKeywords = [];
+
+    // go through all keyword data
+    var i = 0;
+    while (i < keywordData.length) {
+      var subjectItem = keywordData[i];
+
+      // remove spaces and compare codes
+      var cleanItemCode = subjectItem.subject_code.replace(/\s/g, "");
+      var cleanSelectedCode = selectedCode.replace(/\s/g, "");
+
+      if (cleanItemCode === cleanSelectedCode) {
+
+        // add top-level keywords if they exist
+        if (Array.isArray(subjectItem.keywords)) {
+          var k = 0;
+          while (k < subjectItem.keywords.length) {
+            var keyword = subjectItem.keywords[k];
+            if (!allSubjectKeywords.includes(keyword)) {
+              allSubjectKeywords.push(keyword);
+            }
+            k = k + 1;
+          }
+        }
+
+        // also add keywords from each unit
+        if (Array.isArray(subjectItem.units)) {
+          var u = 0;
+          while (u < subjectItem.units.length) {
+            var unit = subjectItem.units[u];
+            if (Array.isArray(unit.keywords)) {
+              var j = 0;
+              while (j < unit.keywords.length) {
+                var unitKeyword = unit.keywords[j];
+                if (!allSubjectKeywords.includes(unitKeyword)) {
+                  allSubjectKeywords.push(unitKeyword);
+                }
+                j = j + 1;
+              }
+            }
+            u = u + 1;
+          }
+        }
+      }
+
+      i = i + 1;
+    }
+
+    console.log("Total keywords for subject:", allSubjectKeywords.length);
+  }
+
+  // this function runs when any dropdown changes
+  // it filters the papers and shows the matching pdf buttons
+  function updatePDFList() {
+
+    // if paper is already submitted, do nothing
+    if (isSubmitted) {
+      return;
+    }
+
+    // first load the subject dropdown
+    loadSubjects();
+
+    var yearValue = document.getElementById("year").value;
+    var semValue = document.getElementById("sem").value;
+    var branchValue = document.getElementById("branch").value;
+    var typeValue = document.getElementById("type").value;
+
+    var pdfListDiv = document.getElementById("pdfList");
+    pdfListDiv.innerHTML = "";
+
+    // if any dropdown is not selected, stop here
+    if (!yearValue || !semValue || !branchValue || !typeValue) {
+      return;
+    }
+
+    // filter papers that match all 4 dropdown values
+    var matchingPapers = [];
+    var i = 0;
+    while (i < allPapers.length) {
+      var paper = allPapers[i];
+      if (paper.year == yearValue && paper.semester == semValue && paper.branch == branchValue && paper.type == typeValue) {
+        matchingPapers.push(paper);
+      }
+      i = i + 1;
+    }
+
+    // if no papers found, show message
+    if (matchingPapers.length == 0) {
+      pdfListDiv.innerHTML = "No papers available.";
+      document.getElementById("pdfViewer").src = "";
+      return;
+    }
+
+    // create a button for each matching paper
+    var p = 0;
+    while (p < matchingPapers.length) {
+      var onePaper = matchingPapers[p];
+
+      var paperButton = document.createElement("button");
+
+      // get just the filename from the path
+      var fullPath = onePaper.paper;
+      var pathParts = fullPath.split("/");
+      var fileName = pathParts[pathParts.length - 1];
+      paperButton.textContent = fileName;
+
+      paperButton.type = "button";
+
+      // when clicked, load this pdf and start the question navigation
+      paperButton.onclick = function(clickedPaper) {
+        return function() {
+          document.getElementById("pdfViewer").src = clickedPaper.paper;
+          currentPaperType = typeValue;
+          initNavigation();
+          showSubpart(0, 0);
+        };
+      }(onePaper);
+
+      pdfListDiv.appendChild(paperButton);
+
+      p = p + 1;
+    }
+  }
+
+  // this function sets up the question navigation buttons and answer area
+  function initNavigation() {
+
+    // reset everything for a fresh start
+    isSubmitted = false;
+
+    // mid exam has 2 subparts (a, b), end exam has 3 (a, b, c)
+    if (currentPaperType === "mid") {
+      subparts = ["a", "b"];
+      attemptPerQuestion = 1;
+    } else {
+      subparts = ["a", "b", "c"];
+      attemptPerQuestion = 2;
+    }
+
+    // reset all answers to empty strings
+    userAnswers = {};
+    var q = 0;
+    while (q < numQuestions) {
+      userAnswers[q] = {};
+
+      var s = 0;
+      while (s < subparts.length) {
+        userAnswers[q][subparts[s]] = "";
+        s = s + 1;
+      }
+
+      q = q + 1;
+    }
+
+    // clear the right side and add heading and containers
+    var rightDiv = document.querySelector(".right");
+    rightDiv.innerHTML = "<h3>Write Answers</h3><div id='subpartNav'></div><div id='answerDiv'></div>";
+
+    // create navigation buttons for each question and subpart
+    var navDiv = document.getElementById("subpartNav");
+
+    var questionNum = 0;
+    while (questionNum < numQuestions) {
+
+      var subpartIndex = 0;
+      while (subpartIndex < subparts.length) {
+
+        var navButton = document.createElement("button");
+        navButton.textContent = (questionNum + 1) + subparts[subpartIndex];
+        navButton.type = "button";
+
+        // clicking button shows that question and subpart
+        navButton.onclick = function(qNum, spIdx) {
+          return function() {
+            showSubpart(qNum, spIdx);
+          };
+        }(questionNum, subpartIndex);
+
+        navDiv.appendChild(navButton);
+
+        subpartIndex = subpartIndex + 1;
+      }
+
+      questionNum = questionNum + 1;
+    }
+
+    // add the submit button at the bottom
+    var submitButton = document.createElement("button");
+    submitButton.textContent = "Submit";
+    submitButton.type = "button";
+    submitButton.onclick = function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      checkAnswersStepwise();
+    };
+    rightDiv.appendChild(submitButton);
+  }
+
+  // this function shows the textarea for a specific question and subpart
+  function showSubpart(questionNumber, subpartIndex) {
+
+    // if already submitted, don't let user edit anything
+    if (isSubmitted) {
+      return;
+    }
+
+    currentQ = questionNumber;
+    currentSP = subpartIndex;
+
+    var answerDiv = document.getElementById("answerDiv");
+    answerDiv.innerHTML = "";
+
+    var currentSubpart = subparts[subpartIndex];
+
+    // show which question and subpart this is
+    var questionLabel = document.createElement("label");
+    questionLabel.textContent = "Question " + (questionNumber + 1) + " - " + currentSubpart.toUpperCase();
+    answerDiv.appendChild(questionLabel);
+
+    // create the text area and load saved answer if any
+    var textArea = document.createElement("textarea");
+    textArea.value = userAnswers[questionNumber][currentSubpart];
+
+    // save what user types
+    textArea.oninput = function() {
+      userAnswers[questionNumber][currentSubpart] = textArea.value;
+    };
+
+    answerDiv.appendChild(textArea);
+  }
+
+  // this function checks what keywords the user used in their answers
+  function getMatchedKeywords(answerText, keywordsPool) {
+    var lowerAnswer = answerText.toLowerCase();
+    var matchedList = [];
+    var unmatchedList = [];
+
+    // these are small words we ignore when matching
+    var stopWords = ["a", "an", "the", "of", "and", "or", "in", "is", "are", "to", "for", "with", "that", "this", "it", "be", "as", "at", "by", "from", "on", "was", "were", "has", "have", "its", "into"];
+
+    var k = 0;
+    while (k < keywordsPool.length) {
+      var keyword = keywordsPool[k];
+
+      // clean the keyword and split into individual words
+      var cleanedKeyword = keyword.toLowerCase().replace(/[()\/\-]/g, " ");
+      var keywordWords = cleanedKeyword.split(/\s+/);
+
+      // filter out short words and stop words
+      var importantWords = [];
+      var w = 0;
+      while (w < keywordWords.length) {
+        var word = keywordWords[w];
+        var isStopWord = false;
+        var sw = 0;
+        while (sw < stopWords.length) {
+          if (stopWords[sw] === word) {
+            isStopWord = true;
+          }
+          sw = sw + 1;
+        }
+        if (word.length >= 3 && !isStopWord) {
+          importantWords.push(word);
+        }
+        w = w + 1;
+      }
+
+      // if no important words, mark as unmatched
+      if (importantWords.length === 0) {
+        unmatchedList.push(keyword);
+        k = k + 1;
+        continue;
+      }
+
+      // check if any important word appears in the answer
+      var foundMatch = false;
+      var iw = 0;
+      while (iw < importantWords.length) {
+        if (lowerAnswer.includes(importantWords[iw])) {
+          foundMatch = true;
+        }
+        iw = iw + 1;
+      }
+
+      if (foundMatch) {
+        matchedList.push(keyword);
+      } else {
+        unmatchedList.push(keyword);
+      }
+
+      k = k + 1;
+    }
+
+    return { matched: matchedList, unmatched: unmatchedList };
+  }
+
+  // this function checks all answers and shows the result
+  function checkAnswersStepwise() {
+
+    // don't allow submitting twice
+    if (isSubmitted) {
+      return;
+    }
+
+    // make sure user selected a subject
+    if (allSubjectKeywords.length === 0) {
+      alert("Please select a subject first.");
+      return;
+    }
+
+    var totalScore = 0;
+    var maxScore = 0;
+    var resultHTML = "<h2>Result</h2>";
+    var totalMatchedAll = 0;
+    var totalKeywordsAll = 0;
+
+    // check each question one by one
+    var q = 0;
+    while (q < numQuestions) {
+
+      // find which subparts the user actually filled in
+      var attemptedSubparts = [];
+      var s = 0;
+      while (s < subparts.length) {
+        var subpart = subparts[s];
+        if (userAnswers[q][subpart].trim() !== "") {
+          attemptedSubparts.push(subpart);
+        }
+        s = s + 1;
+      }
+
+      // check if correct number of subparts were attempted
+      if (attemptedSubparts.length !== attemptPerQuestion) {
+        alert("Q" + (q + 1) + ": Attempt " + attemptPerQuestion + " subpart(s).");
+        return;
+      }
+
+      // now check each attempted subpart for keywords
+      var a = 0;
+      while (a < attemptedSubparts.length) {
+        var subpartName = attemptedSubparts[a];
+        var answerText = userAnswers[q][subpartName];
+
+        var keywordResult = getMatchedKeywords(answerText, allSubjectKeywords);
+        var matchedKeywords = keywordResult.matched;
+        var unmatchedKeywords = keywordResult.unmatched;
+
+        var possibleScore = allSubjectKeywords.length;
+
+        totalScore = totalScore + matchedKeywords.length;
+        maxScore = maxScore + possibleScore;
+        totalMatchedAll = totalMatchedAll + matchedKeywords.length;
+        totalKeywordsAll = totalKeywordsAll + possibleScore;
+
+        // build the html for this subpart result
+        var matchedBadges = "";
+        var m = 0;
+        while (m < matchedKeywords.length) {
+          matchedBadges = matchedBadges + '<span style="background:green;color:white;padding:3px 8px;margin:2px;border-radius:10px;display:inline-block;">' + matchedKeywords[m] + '</span>';
+          m = m + 1;
+        }
+
+        var unmatchedBadges = "";
+        var um = 0;
+        while (um < unmatchedKeywords.length) {
+          unmatchedBadges = unmatchedBadges + '<span style="background:#eee;padding:3px 8px;margin:2px;border-radius:10px;display:inline-block;">' + unmatchedKeywords[um] + '</span>';
+          um = um + 1;
+        }
+
+        // show matched keywords section
+        var matchedSection = "";
+        if (matchedKeywords.length > 0) {
+          matchedSection = '<div style="margin-top:5px;">' + matchedBadges + '</div>';
+        }
+
+        // show unmatched keywords or success message
+        var unmatchedSection = "";
+        if (unmatchedKeywords.length > 0) {
+          unmatchedSection = '<div style="margin-top:8px;color:#666;font-weight:bold;">Improve with:</div><div style="margin-top:4px;">' + unmatchedBadges + '</div>';
+        } else {
+          unmatchedSection = '<p style="color:green;">All keywords covered!</p>';
+        }
+
+        resultHTML = resultHTML + '<div style="border:1px solid #ddd; padding:10px; margin:10px 0;">'
+          + '<b>Q' + (q + 1) + subpartName.toUpperCase() + '</b><br>'
+          + 'Matched: ' + matchedKeywords.length + ' / ' + allSubjectKeywords.length + '<br>'
+          + matchedSection
+          + unmatchedSection
+          + '</div>';
+
+        a = a + 1;
+      }
+
+      q = q + 1;
+    }
+
+    // calculate final score out of 50 or 100
+    var totalMarks = 100;
+    if (currentPaperType === "mid") {
+      totalMarks = 50;
+    }
+
+    var finalScore = 0;
+    if (maxScore > 0) {
+      finalScore = Math.round((totalScore / maxScore) * totalMarks);
+    }
+
+    // get unit name from keyword data
+    var unitName = "Unknown Unit";
+    var selectedSubjectCode = "";
+    var subjectDropdown = document.getElementById("subject");
+    if (subjectDropdown) {
+      selectedSubjectCode = subjectDropdown.value;
+    }
+
+    var i = 0;
+    while (i < keywordData.length) {
+      var item = keywordData[i];
+      var cleanItem = item.subject_code.replace(/\s/g, "");
+      var cleanSelected = selectedSubjectCode.replace(/\s/g, "");
+      if (cleanItem === cleanSelected) {
+        if (item.unit) {
+          unitName = item.unit;
+        }
+      }
+      i = i + 1;
+    }
+
+    // get the subject name from dropdown
+    var subjectName = "Unknown";
+    if (subjectDropdown) {
+      subjectName = subjectDropdown.selectedOptions[0].text;
+    }
+
+    // lock submission so user can't submit again
+    isSubmitted = true;
+
+    // put final score at the top
+    resultHTML = "<h1>Score: " + finalScore + "/" + totalMarks + "</h1>" + resultHTML;
+
+    // add buttons at the bottom to go to dashboard or try another paper
+    resultHTML = resultHTML + '<div style="text-align:center; margin-top:20px; padding:15px; background:#f0f8ff; border-radius:8px;">'
+      + '<button type="button" onclick="window.location.href=\'sampledashboard.html\'" style="background:#4CAF50;color:white;padding:10px 20px;border:none;border-radius:5px;cursor:pointer;margin:5px;">View Dashboard</button>'
+      + '<button type="button" onclick="tryAnotherPaper()" style="background:#2196F3;color:white;padding:10px 20px;border:none;border-radius:5px;cursor:pointer;margin:5px;">Try Another Paper</button>'
+      + '</div>'
+      + '<p style="text-align:center;font-size:12px;color:#666;" id="saveStatus">💾 Saving result...</p>';
+
+    // show result in the right panel
+    document.querySelector(".right").innerHTML = resultHTML;
+
+    // get today date
+    var todayDate = new Date().toISOString().split("T")[0];
+
+    // get current user email from session
+    var userEmail = sessionStorage.getItem('currentUser');
+
+    // get semester value
+    var semesterValue = document.getElementById("sem").value;
+
+    // save result to server
+    fetch('http://localhost:3000/api/history', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        email: userEmail,
+        result: {
+          date: todayDate,
+          score: finalScore,
+          type: currentPaperType,
+          subject: subjectName,
+          semester: semesterValue,
+          unit: unitName,
+          keywordsMatched: totalMatchedAll,
+          keywordsTotal: allSubjectKeywords.length
+        }
+      })
+    }).then(function(response) {
+      return response.json();
+    }).then(function(data) {
+      var statusElement = document.getElementById('saveStatus');
+      if (statusElement) {
+        statusElement.innerHTML = 'Result saved to your profile!';
+        statusElement.style.color = '#4CAF50';
+      }
+    }).catch(function(error) {
+      console.error('Failed to save descriptive result:', error);
+      var statusElement = document.getElementById('saveStatus');
+      if (statusElement) {
+        statusElement.innerHTML = '⚠️ Display saved, server sync failed';
+        statusElement.style.color = '#f44336';
+      }
+    });
+  }
+
+  // this function resets everything so user can try a different paper
+  function tryAnotherPaper() {
+
+    // unlock submission
+    isSubmitted = false;
+
+    // clear the right panel
+    document.querySelector(".right").innerHTML = "<p>Please select the PDF to view and answer the questions.</p>";
+
+    // clear the pdf viewer
+    document.getElementById("pdfViewer").src = "";
+
+    // clear the pdf buttons
+    document.getElementById("pdfList").innerHTML = "";
+
+    // reset all dropdowns to blank
+    document.getElementById("year").value = "";
+    document.getElementById("sem").value = "";
+    document.getElementById("branch").value = "";
+    document.getElementById("type").value = "";
+
+    // remove the subject dropdown if it exists
+    var oldSubjectSelect = document.getElementById("subject");
+    var oldSubjectLabel = document.getElementById("subject-label");
+    if (oldSubjectSelect) {
+      oldSubjectSelect.remove();
+    }
+    if (oldSubjectLabel) {
+      oldSubjectLabel.remove();
+    }
+
+    // reset all the global variables
+    allSubjectKeywords = [];
+    currentPaperType = "";
+    userAnswers = {};
+  }
+function logout(){
+  sessionStorage.clear();
+  localStorage.clear();
+  window.location.href = "samplefront.html";
+}
+</script>
+</body>
+</html>

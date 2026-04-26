@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SmartPrep - Login</title>
+  <style>
+    body { 
+        margin: 0; 
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f8f8f8; 
+        display: flex; 
+        flex-direction: column; 
+        height: 100vh; 
+    }
+
+    .navbar { 
+        background-color: white; 
+        padding: 20px 60px; 
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        border-bottom: 1px solid #ddd; 
+    }
+    .navbar h2 { 
+        margin: 0; 
+        font-size: 22px; 
+        font-weight: bold; 
+    }
+    .navbar a { 
+        margin-left: 25px; 
+        color: black; 
+        font-weight: bold; 
+    }
+
+    .login-section { 
+        flex: 1; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    .container { 
+        width: 900px; 
+        height: 500px; 
+        background-color: white;
+        display: flex; 
+        border-radius: 10px; 
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+    }
+
+    .left { 
+        width: 50%; 
+        background-color: black; 
+        color: white; 
+        padding: 50px;
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+    }
+    .left h1 { 
+        font-size: 32px; 
+        margin-bottom: 20px; 
+    }
+    .left ul { 
+        padding-left: 20px; 
+        line-height: 1.8; 
+        margin-bottom: 25px; 
+    }
+    .left p { 
+        font-size: 14px; 
+        color: #ccc; 
+    }
+
+    .right { 
+        width: 50%; 
+        padding: 60px; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+    }
+    .right h2 { 
+        margin-bottom: 30px; 
+        font-size: 24px; 
+    }
+
+    input { 
+        width: 100%; 
+        padding: 12px; 
+        margin-bottom: 18px;
+        border-radius: 6px; 
+        border: 1px solid #ccc; 
+        font-size: 14px; 
+        box-sizing: border-box; 
+    }
+    input:focus { 
+        outline: none; 
+        border: 1px solid black; 
+    }
+
+    button { 
+        padding: 14px; 
+        border: none; 
+        background-color: black;
+        color: white; 
+        font-size: 15px; 
+        cursor: pointer; 
+        width: 100%; 
+    }
+    button:hover { 
+        background-color: #333; 
+    }
+
+    .quote { 
+        margin-top: 15px; 
+        font-size: 13px; 
+        color: #777; 
+        text-align: center; 
+    }
+    .error { 
+        color: red; 
+        font-size: 13px; 
+        margin-bottom: 10px; 
+        display: none; 
+    }
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+  <h2>SmartPrep</h2>
+  <div>
+    <a href="samplefront.html">Home</a>
+    <a href="#">Login</a>
+    <a href="sampleregister.html">Register</a>
+    <a href="sampledashboard.html">Dashboard</a>
+  </div>
+</div>
+
+<div class="login-section">
+  <div class="container">
+    <div class="left">
+      <h1>Welcome Back</h1>
+      <ul>
+        <li>Practice Previous Year Questions daily</li>
+        <li>Track your performance & accuracy</li>
+        <li>Identify weak topics instantly</li>
+        <li>Maintain your daily streak</li>
+      </ul>
+      <p><strong>"Small daily improvements lead to big exam victories."</strong></p>
+    </div>
+    <div class="right">
+      <h2>Login to Your Account</h2>
+      <form id="loginForm" autocomplete="off">
+        <input type="email" id="email" placeholder="Enter your Email ID" required autocomplete="email">
+        <input type="password" id="password" placeholder="Password" required autocomplete="current-password">
+        <div id="error" class="error">Incorrect email or password. Please try again.</div>
+        <button type="submit">Login</button>
+      </form>
+      <div class="quote">Don't have an account? <a href="sampleregister.html">Register here</a></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.getElementById('loginForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    var email    = document.getElementById('email').value.trim();
+    var password = document.getElementById('password').value.trim();
+    var error    = document.getElementById('error');
+
+    // Send to server
+    fetch('http://localhost:3000/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password })
+    })
+    .then(res => res.json())
+    .then(data => {
+      if (data.error) {
+        error.style.display = 'block';
+      } else {
+        sessionStorage.setItem('loggedIn', 'true');
+        sessionStorage.setItem('currentUser', email);
+        sessionStorage.setItem('currentUserName', data.name);
+        
+        error.style.display = 'none';
+        
+        var next = localStorage.getItem('nextPage');
+        if (next) {
+          localStorage.removeItem('nextPage');
+          window.location.href = next;
+        } else {
+          window.location.href = "sampledashboard.html";
+        }
+      }
+    })
+    .catch(err => {
+      error.style.display = 'block';
+      console.error(err);
+    });
+  });
+</script>
+
+</body>
+</html>

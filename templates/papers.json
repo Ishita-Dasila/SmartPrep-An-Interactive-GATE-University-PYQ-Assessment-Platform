@@ -1,0 +1,4643 @@
+[
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/mid/2025 oct/BTECH AIML AND AIDS TCS102 INTRO TO PYTHON PROGRAMMING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/mid/2025 oct/BTECH BIOTECH EEC101 BASIC ELECTRICAL AND ELECTRONIC ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/mid/2025 oct/BTECH BT TBT101 FUNDAMENTALS OF MEDICAL BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "CHEM",
+        "type": "mid",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/mid/2025 oct/BTECH TCH101 ENGINEERING CHEMISTRY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/mid/2025 oct/BTECH TCS101 FUNDAMENTAL OF COMPUTER AND INTRO TO C PROGRAMMING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/mid/2025 oct/BTECH TEC 101 BASIC ELECRONICS ENGINEERING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/mid/2025 oct/BTECH TEE101 BASIC ELECTRICAL ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "COMM",
+        "type": "mid",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/mid/2025 oct/BTECH THU101 PROFESSIONAL COMMUNICATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "MATH",
+        "type": "mid",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/mid/2025 oct/BTECH TMA101 ENGINEERING MATH-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "MATH",
+        "type": "mid",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/mid/2025 oct/BTECH TMA102 ENGINEERING MATHEMATICS FOR AI-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "PHY",
+        "type": "mid",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/mid/2025 oct/BTECH TPH101 ENGINEERING PHYSICS.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 1,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/mid/2023/1ST SEM MID TERM OCT 2023 BTECH BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 1,
+        "branch": "BTECH",
+        "type": "mid",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/mid/2023/1ST SEM MID TERM OCT 2023 BTECH.pdf"
+    },
+    {
+        "year": 2022,
+        "semester": 1,
+        "branch": "BTECH",
+        "type": "mid",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/mid/2022/1ST SEM MID TERM 2022 B.TECH.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "MATH",
+        "type": "mid",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/mid/2025/BTECH BIO TECH TMA 202 ENG MATHEMATICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "CHEM",
+        "type": "mid",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/mid/2025/BTECH BT TCH202 ADVANCED ORGANIC CHEM.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "CHEM",
+        "type": "mid",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/mid/2025/BTECH ENG CHEM TCH201.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "MATH",
+        "type": "mid",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/mid/2025/BTECH ENG MATH -2 TMA201.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/mid/2025/BTECH TCS201.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/mid/2025/BTECH TEC201 BASIC ELECTRONIC ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/mid/2025/BTECH TEE201 BASIC ELECTRICAL ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "COMM",
+        "type": "mid",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/mid/2025/BTECH THU201 ADVANCED PROFESSIONAL COMM.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "MATH",
+        "type": "mid",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/mid/2025/BTECH TMA201 ENGINEERING MATH-2 BACK.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "PHY",
+        "type": "mid",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/mid/2025/BTECH TPH201 ENG PHYSICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 2,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/mid/2024/2nd Sem Mid Term March 2024 B.TECH BIOTECH.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 2,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/mid/2024/2nd Sem Mid Term March 2024 BTECH.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 2,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/mid/2023/2ND SEM MID TERM 2023 BTECH.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "AE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH AEROSPACE ENGG TAS304 AERO FLUID MECHANICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "AE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH AEROSPACE ENGG TAS305 APPLIED MECHANICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH BIOTECH TBT301 GENETICS AND MOLECULAR BIOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH BIOTECH TBT302 CELL BIOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH BIOTECH VBT301 GENDER EQUALITY AND EMPOWERMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH BIOTECHNOLOGY TBT305 ENTREPRENEURSHIP DEVELOPMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH BIOTECHNOLOGY TBT306C SUSTAINABLE AGRICULTURE AND ORGANIC FARMING FOR FOOD SECURITY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH BT TBT306B STRUCTURAL BIOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH CE TCE301 FLUID MECHANICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH CE TCE303 MECHANICS OF SOLIDS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH CE TCE339 EMERGING TECHNOLOGIES IN CONSTRUCTION PRACTICES.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH CE TCE399 REMOTE SENSING AND ITS TECHNIQUES.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH CE TMA302 ENGINEERING MATHEMATICS-3.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH CSE AI ML TCS346 PYTHON PROGRAMMING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH CSE AI ML TCS364 FUNDAMENTALS OF AI AND ML.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH CSE TCS308 LOGIC DESIGN AND COMPUTER ORGANIZATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH CSE TCS343 MATHEMATICAL FOUNDATIONS FOR AI.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH ECE TEC304 SIGNALS AND SYSTEMS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH ECE TEC343 ELECTRONICS ENGINEERING MATERIALS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH ECE TEC359 FUNDAMENTALS OF COMPUTER ORGANIZATION APP.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH EE TEE303 ELECTRICAL AND ELECTRONICS MEASURING INSTRUMENTS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH EE TMA301 MATHEMATICS-3.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH ELECTRICAL TEE305 ELECTRICAL ENGINEERING MATERIAL.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH MCS324 INTRUSION DETECTION SYSTEM.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH ME AE TMA303 ENGINEERING MATHEMATICS 3.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH ME AME TME312 AUTOMOTIVE SYSTEMS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH ME TME311 MICROPROCESSOR AND MICROCONTROLLER.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH PE TMA307 ADVANCED MATHEMATICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH PE TPE301 THERMODYNAMICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH PE TPE302 GENERAL GEOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH TCS307 OBJECT ORIENTED PROGRAMMING WITH C++.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH TEC303 NETWORKS ANALYSIS AND SYNTHESIS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH TEE302 ELECTRICAL MACHINE-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH TMA310 ADVANCED ENGINEERING MATHEMATICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH TMA316 DISCRETE STRUCTURES AND COMBINATORICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH TME302 MATERIAL SCIENCE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2025 oct/BTECH TME308 THERMAL ENGINEERING.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 3,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2023/3rd SEM MID TERM OCT 2023 B.TECH BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 3,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2023/3rd SEM MID TERM OCT 2023 B.TECH CIVIL.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2023/3rd SEM MID TERM OCT 2023 B.TECH CSE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2023/3rd SEM MID TERM OCT 2023 B.TECH ECE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 3,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2023/3rd SEM MID TERM OCT 2023 B.TECH EE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 3,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2023/3rd SEM MID TERM OCT 2023 B.TECH ME.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 3,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/mid/2023/3rd SEM MID TERM OCT 2023 B.TECH PETROLEUM.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 4,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/mid/2023/4TH SEM MID TERM 2023 B.TECH BIOTECH.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 4,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/mid/2023/4TH SEM MID TERM 2023 B.TECH CIVIL.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 4,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/mid/2023/4TH SEM MID TERM 2023 B.TECH CS.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 4,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/mid/2023/4TH SEM MID TERM 2023 B.TECH ECE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 4,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/mid/2023/4TH SEM MID TERM 2023 B.TECH EE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 4,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/mid/2023/4TH SEM MID TERM 2023 B.TECH ME.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 4,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/mid/2023/4TH SEM MID TERM 2023 B.TECH PETROLEUM.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "AE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH AERO TAS504 AIRCRAFT STABILITY AND CONTROL.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "AE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH AEROSPACE ENGG TAS501 AIRCRAFT STRUCTURE -1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH BIOTECH STEM CELL BIOLOGY TBT508.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH BIOTECH TBT504 BIOINFORMATICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH BIOTECH TBT505 FORENSIC BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH BIOTECH TBT506 NANOBIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH BIOTECH TBT507 BIOSIMILAR TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH BIOTECHNOLOGY TBT503 FERMENTATION TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH BT TBT509B FUNDAMENTALS OF AI AND ML.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH BT TBT509C CIRCULAR ECONOMY AND SUSTAINABILITY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH CE TCE 539 BUILDING INFORMATION MODELING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH CE TCE511 AIR AND NOISE POLLUTION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH CE TPE302 GENERAL GEOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH CIVEL ENGG TCE502 REINFORCED CEMENT CONCRETE DESIGN.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH CIVIL TCE504 HYDROLOGY AND IRRIGATION ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH CSE AI ML TCS 564 NATURAL LANGUAGE PROCESSING AND COMPUTER VISION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH CSE SPL TCS597 COMPUTER SYSTEM SECURITY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH CSE TCS511 COMPUTERS NETWORKS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH CSE TCS514 COMPUTER NETWORK-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH CSE TCS562 INTRO TO AI AND DS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH CSE TCS584 FOUNDATION OF QUANTUM COMPUTING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH CSE TCS595 SECURITY AND AUDITING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH ECE IOT TEC591 TRANSDUCERS ACTUATORS AND DISPLAY DEVICES.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH ECE TEC502 COMMUNICATION SYSTEMS 2.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH ECE TEC541 CONTROL SYSTEMS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH ECE TEC551 SENSOR TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH EE TEE 503 MICROPROCESSORS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH EE TEE504 ELECTRICAL MACHINE DESIGN.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH EE UCE501 DISASTER MANAGEMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH ME ROBOTICS TME513.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH ME TME501 HEAT TRANSFER.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH ME TME510 MECHANICAL MEASUREMENTS AND METROLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH ME TME511 SOLAR ENERGY ENGINEERING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH ME TME514 AUTOMOTIVES FUELS AND LUBRICANTS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH ME TME515 SUPPLY CHAIN MANAGEMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH PE TPE501 PETROLEUM GEOPHYSICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH PE TPE502 WELL LOGGING AND FORMATION EVALUATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH PE TPE505 PETROLEUM REFINING ENGINEERING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH PE TPE511 MACHINE LEARNING FOR RESERVOIR.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH TCE501 ADVANCED STURCTURAL ANALYSIS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH TCS 542 INTRO TO AI.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH TCS501 SYSTEM SOFTWARE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH TCS509 MACHINE LEARNING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH TCS552 CLOUD BASED APP DEVELOPMENT AND MANAGEMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH TCS571 BIGDATA VISUALIZATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH TCS591 COMPUTER SYSTEM SECURITY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH TEC501 DIGITAL SIGNAL PROCESSING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2025 oct/BTECH TME508 THEORY OF MACHINES.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 5,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2023/5TH SEM MID TERM OCT 2023 B.TECH BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 5,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2023/5TH SEM MID TERM OCT 2023 B.TECH CIVIL.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 5,
+        "branch": "CSCE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2023/5TH SEM MID TERM OCT 2023 B.TECH CSE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 5,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2023/5TH SEM MID TERM OCT 2023 B.TECH ECE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 5,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2023/5TH SEM MID TERM OCT 2023 B.TECH EE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 5,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2023/5TH SEM MID TERM OCT 2023 B.TECH ME.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 5,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/mid/2023/5TH SEM MID TERM OCT 2023 B.TECH PETROLEUM.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH BIOTECH TCS421 FUNDAMENTALS OF STATISTICS &AI.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH BT TBT604A  BIOSIMILAR TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH BT TBT604B BIOSENSOR & BIOELECTRONICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH BT TBT604C MICROBIAL TECH.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH BT TCS471 STATISTICAL DATA ANALYSIS WITH R.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH CE TCE602 REINFORCED CEMENT CONCREATE2.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH CE TCE603 WATER RESOURCE ENGG-2.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH CSE CYBER SECURITY TCS679 NETWORK AND SYSTEM SECURITY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH CSE TC691 IMAGE PROCESSING & COMPUTER VISION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH CSE TCS604 COMPUTER NETWORK-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH CSE TCS619 NETWORK & SYSTEM SECURITY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH CSE TCS651 DEVOPS ON CLOUD.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH CSE TCS695 SECURITY & AUDITING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH ECE TEC601 WIRELESS COMMUNICATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH ECE TOE610 OOPS USING C++.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH EE TEE603 POWER SYSTEM PROTECTION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH EE TEE608 HIGH VOLTAGE ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH ME TME609 INDUSTRIAL ENGG & PROJECT MANG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH ME TME610 MECHANICAL VIBRATIONS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH ME TME621 AUTOMOTIVE MECHATRONICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH PE TPE 605 PETROLEUM PRODUCTION ENG-2.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH PE TPE602 DATA SCIENCE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH PE TPE603 NATURAL GAS ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH PE TPE611 ALTERNATE ENERGY RESOURCES.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH TBT601 ANIMAL BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH TCS 662 MACHINE LEARNING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH TCS 682 ADVANCED MACHINE LEARNING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH TCS671 BIGDATA STORAGE & PROCESSING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH TCS693 FULL STACK WEB DEVELOPMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2025/BTECH TME602 DESIGN OF MACHINE ELEMENTS-2.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2024/6th Sem Mid Term March 2024 B.TECH BIOTECH.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2024/6th Sem Mid Term March 2024 CIVIL.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2024/6th Sem Mid Term March 2024 CSE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2024/6th Sem Mid Term March 2024 ECE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2024/6th Sem Mid Term March 2024 EE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2024/6th Sem Mid Term March 2024 ME.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2024/6th Sem Mid Term March 2024 PETROLEUM.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 6,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2023/6TH SEM MID TERM 2023 BTECH CIVIL.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2023/6TH SEM MID TERM 2023 BTECH CSE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 6,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2023/6TH SEM MID TERM 2023 BTECH ECE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 6,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2023/6TH SEM MID TERM 2023 BTECH EE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 6,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2023/6TH SEM MID TERM 2023 BTECH ME.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 6,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2023/6TH SEM MID TERM 2023 BTECH PETROLEUM.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 6,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/mid/2023/6TH SEM MID TERM B.TECH BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/mid/2023/7TH SEM MID TERM BTECH ME.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/mid/2023/7TH SEM MID TERM OCT 2023 B.TECH BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/mid/2023/7TH SEM MID TERM OCT 2023 B.TECH CIVIL ENGINEERING.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/mid/2023/7TH SEM MID TERM OCT 2023 BHM.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/mid/2023/7TH SEM MID TERM OCT 2023 CSE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/mid/2023/7TH SEM MID TERM OCT 2023 ECE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/mid/2023/7TH SEM MID TERM OCT 2023 EE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "PE",
+        "type": "mid",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/mid/2023/7TH SEM MID TERM OCT 2023 PETROLEUM.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH CE TCE801 EARTHQUAKE RESISTANT DESIGN OF BUILDING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH CE TCE813 HYDROPOWER ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH CSE TCS836 DEEP NEURAL BETWORK BASED.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH CSE TCS851 STORAGE NETWORK.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH CSE TCS852 PATTERN RECOGNITION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH CSE TOE802 PROJECT MANG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH CSE TOE803 CORPORATE LEADERSHIP.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH CSE TOE811 MOBILE COMPUTING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH ECE TEC856 NEURAL NETWORK AND ML.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH ECE TOE810 COMPUTER ARCHITECTURE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH EE TOE801 EXPERT SYSTEM & FUZZY LOGIC.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH ME RA TRA801 AUTOMATIC CONTROL.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH ME TAE801 VEHICLE BODY SAFETY & CONTROL.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH ME TME805 ENTREPRENEURSHIP ESSENTIALS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH ME UCE801 DISASTER MANG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH TCE851 DISASTER MANG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH TCS821 SOFT COMPUTING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH TCS822 MOBILE APP DEVELOP.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH TCS826 UNIX SYSTEM PROGRAMMING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH TCS855 AGILE SOFTWARE ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH TEC851 SATELLITE COMM.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH TEC853 DIGITAL SYSTEM USING VHDL.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH TEC857 MOBILE AD HOC NETWORKS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH TEE802 WIND AND SOLAR ENERGY SYSTEM.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH TME815 TRIBOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/BTECH TOE805 ELECTRICAL ENGG ROBOTICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/TCS 823 BTECH MULTIMEDIA SYSTEM & DATA COM...pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2025/TDM 881 BTECH DISASTER MANG.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 8,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2024/8th Sem Mid Term March 2024 CIVIL.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2024/8th Sem Mid Term March 2024 CSE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 8,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2024/8th Sem Mid Term March 2024 ECE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 8,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2024/8th Sem Mid Term March 2024 EE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 8,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2024/8th Sem Mid Term March 2024 ME.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 8,
+        "branch": "BT",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2023/8TH SEM MID TERM 2023 B.TECH BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 8,
+        "branch": "CE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2023/8TH SEM MID TERM 2023 B.TECH CIVIL.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2023/8TH SEM MID TERM 2023 B.TECH CSE & IT.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 8,
+        "branch": "ECE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2023/8TH SEM MID TERM 2023 B.TECH ECE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 8,
+        "branch": "EE",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2023/8TH SEM MID TERM 2023 B.TECH EE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 8,
+        "branch": "ME",
+        "type": "mid",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/mid/2023/8TH SEM MID TERM 2023 B.TECH ME.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2025 dec/BTECH BIOTECH EEC101 BASIC ELECTRICAL AND ELECTRONIC ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2025 dec/BTECH BIOTECH TBT101 FUNDAMENTAL OF MEDICAL MICROBIOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "CHEM",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2025 dec/BTECH TCH101 ENGINEERING CHEMISTRY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2025 dec/BTECH TCS101 FUNDAMENTAL OF COMPUTER AND INDTRODUCTION TO PROGRAMMING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2025 dec/BTECH TCS102 INTRO TO PYTHON PROGRAMMING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2025 dec/BTECH TEC101 BASIC ELECTRONICS ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2025 dec/BTECH TEE101 BASIC ELECTRICAL ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "COMM",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2025 dec/BTECH THU101 PROFESSIONAL COMMUNICATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "MATH",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2025 dec/BTECH TMA101 ENGINEERING MATH-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "MATH",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2025 dec/BTECH TMA102 ENGI MATH FO AI.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 1,
+        "branch": "PHY",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2025 dec/BTECH TPH101 ENGINEERING PHYSICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 1,
+        "branch": "MATH",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2024/BTECH ALL BRANCHES TMA 101 ENGG MATHEMATICS-1.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 1,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2024/BTECH BIOTECH EEC 101 BASIC ELECTRICAL AND ELECTRONICAL ENGG.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 1,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2024/BTECH BT TBT 101 FUNDAMENTALS OF MEDICAL MICROBIOLOGY.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 1,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2024/BTECH EE TEE 101 BASIC ELECTRICAL ENGG.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 1,
+        "branch": "CHEM",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2024/BTECH TCH101 ENGG CHEMISTRY.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 1,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2024/BTECH TEC 101 BASIC ELECTRONIC ENGG.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 1,
+        "branch": "COMM",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2024/BTECH THU101 PROFESSIONAL COMMUNICATION.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 1,
+        "branch": "PHY",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2024/BTECH TPH101 ENGINEERING PHYSICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 1,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2024/TCS 101 BTECH FUNDAMENTAL OF COMPUTER AND INTRODUCTION TO PROGRAMMING.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 1,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 1st Sem-20260319T150423Z-3-001/B.Tech 1st Sem/end/2023/BTECH FIRST SEM DEC END TERM 2023.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/end/2025 June/BTECH BIOTECH TMA202 ENGINEERING MATHEMATICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "CHEM",
+        "type": "end",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/end/2025 June/BTECH ENGINEERING CHEMISTRY TCH201.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "CHEM",
+        "type": "end",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/end/2025 June/BTECH TCH202 ADVANCED ORGANIC CHEMISTRY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/end/2025 June/BTECH TCS201 PROGRAMMING FOR PROBLEM SOLVING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/end/2025 June/BTECH TEC201 BASIC ELECTRONICS ENGINEERING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/end/2025 June/BTECH TEE201 BASIC ELECTRICAL ENGINEERING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "COMM",
+        "type": "end",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/end/2025 June/BTECH THU201 ADVANCED PROFESSIONAL COMMUNICATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "MATH",
+        "type": "end",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/end/2025 June/BTECH TMA201 ENGINEERING MATHEMATICS-2.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 2,
+        "branch": "PHY",
+        "type": "end",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/end/2025 June/BTECH TPH201 ENGINEERING PHYSICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 2,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/end/2024/2nd Sem End Term Jun 2024 B.Tech.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 2,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 2nd  Sem-20260319T150434Z-3-001/B.Tech 2nd  Sem/end/2023/2ND SEM END TERM JUNE 2023 B.TECH.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH AEROSPACE ENGG TAS302 INTRO TO AEROSPACE ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH AEROSPACE ENGG TAS304 AERO FLUID MECHANICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH AEROSPACE TAS303 AERO THERMODYNAMICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH AEROSPACE TAS305 APPLIED MECHANICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH AI DS TCS342 INTRO TO STATISTICAL DATA SCIENCE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH BIOTECH TBT302 CELL BIOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH BIOTECH TBT304 BIOCHEMISTRY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH BIOTECH TBT306B STRUCTURAL BIOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH BIOTECH VBT301 GENDER EQUALITY AND EMPOWERMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH BIOTECHNOLOGY TBT301 GENETICS AND MOLECULAR BIOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH BIOTECHNOLOGY TBT303 MICROBIOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH BIOTECHNOLOGY TBT305 ENTREPRENEURSHIP DEVELOPMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH BIOTECHNOLOGY TBT306C SUSTAINABLE AGRICULTURE AND ORGANIC FARMING FOR FOOD SECURITY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CE BSC GEO TCE302 BSGT311 GEOMATICS ENGINE BASIC SURYING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CE TCE302 GEOMATICS ENG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CE TCE339 EMERGING TECHNOLOGIES IN CONSTRUCTION PRACTICES.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CE TCE399 REMOTE SENSING AND ITS TECHNIQUE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CE TMA302 ENGINEERING MATHEMATICS 3.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CIVIL TCE301 FLUID MECHANICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CSE AIML TCS346 PYTHON PROGRAMMING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CSE CYBER SECURITY TCS324 INFORMATION SECURITY FOUNDATIONS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CSE TCS302 DATA STRUCTURE WITH C LANGUAGE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "SCE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CSE TCS308 LOGIC DESIGN AND COMPUTER ORGANIZATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "SCE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CSE TCS331 FUNDAMENTAL OF IOT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "SCE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CSE TCS343 MATHEMATICS FOUNDATION FOR AI.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "SCE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CSE TCS344 PROBABILITY AND RANDOM PROCESSES.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CSE TCS346E PYTHON PROGRAMMING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH CSE TCS392 INTRO TO CRYPTOGRAPHY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH ECE TEC301 ELECTRONIC DEVICES AND CIRCUITS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH ECE TEC302 DIGITAL ELECTRONICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH ECE TEC304 SIGNALS AND SYSTEMS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH ECE TEC343 ELECTRONICS ENGINEERING MATERIALS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH ECE TEC359 FUNDAMENTAL OF COA.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH ECE TMA310 ADVANCED ENGINEERING MATHEMATICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH EE TEE301 ELECTRICAL CIRCUIT ANALYSIS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH EE TEE302 ELECTRICAL MACINES.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH EE TEE303 ELECTRICAL AND ELECTRONICS MEASURING INSTRUMENTS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH EE TEE304 ANALOG ELECTRONICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH EE TMA301 MATHEMATICS-3.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH ME AEROSPACE TMA303 ENGINEERING MATHEMATICS-3.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH ME TME308 THERMAL ENGINEERING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH ME TME311 MICROPROCESSOR AND MICROCONTROLLER.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH PE TMA307 ADVANCED MATHEMATICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH PE TPE301 THERMODYNAMICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH PE TPE302 GENERAL GEOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH PE TPE303 FLUID AND PARICLE MECHANICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH PE TPE304 PETROLEUM DRILLING ENG-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH TCE303 MECHANICS OF SOLIDS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH TCS307 OBJECT ORIENTED PROGRAMMING WITH C++.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH TCS332 FUNDAMENTAL OF IS AND BLOCK CHAIN.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH TCS351 FUNDAMENTAL OF CLOUD COMPUTING AND BIG DATA.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH TCS351 FUNDAMENTAL OF CLOUD COMPUTING AND BIGDATA.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH TCS364 FUNDAMENTAL OF AI ML.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH TEC303 NETWORK ANALYSIS AND SYNTHESIS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH TEE305 ELECTRICAL ENGG MATERIALS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH TMA316 DISCRETE STRUCTURES AND COMBINATORICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH TME302 MATERIAL SCIENCE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH TME306 ENGI MECHANICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH TME309 PRODUCTION TECH.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2025 dec/BTECH TME312 AUTOMOTIVE SYSTEMS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH AEROSPACE ENGG TAS 302 INTRODUCTION TO AEROSPACE ENGG.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH AEROSPACE ENGG TAS 304 AERO-FLUID MECHANICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH AEROSPACE TAS303 AERO THERMODYNAMICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH BIO TECH VBT301 GENDER EQUALITY & EMPOWERMENT.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH BT TBT 304 BIOCHEMISTRY.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH BT TBT301 GENETICS & MOLECULAR BIOLOGY.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH BT TBT302 CELL BIOLOGY.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH BT TBT303 MICROBIOLOGY..pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH CE TCE 301 FLUID MECHANICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH CE TCE302 GEOMATIC ENGG.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH CE TCE304 BUILDING MATERIAL.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH CE TMA302 ENGINEERING MATHEMATICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH CSE BIOTECH TCS 346 PYTHON PROGRAMMING.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH CSE TCS307 OBJECT ORIENTED PROGRAMMING WITH C++.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH CSE TCS308 LOGIC DESIGN & COMPUTER ORGANIZATION.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH CSE TCS331 FUNDAMENTAL OF IOT.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH CSE TCS332 FUNDAMENTAL OF INFORMATION SECURITY & BLOCKCHAIN.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH CSE TCS346 PYTHON PROGRAMMING.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH CSE TCS364 FUNDAMENTAL OF AI.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH ECE TEC 301 ELECTRONIC DEVICES AND CIRCUITS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH ECE TEC 303 NETWORK ANALYSIS & SYNTHESIS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH ECE TEC 359.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH ECE TEC302 DIGITAL ELECTRONICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH ECE TMA310 ADVANCED ENGINEERING MATHEMATICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH EE TEE304 ELECTROMAGNETIC FIELDS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH ELECTRICAL MACHINE-1 TEE 302.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH ME  AEROSPACE ENGG TMA303 ENGINEERING MATHEMATICS 3.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH ME THERMAL ENGG TME308.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH ME TME 310 ENTREPRENEURSHIP FOR ENGINEERS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH ME TME312 AUTOMOTIVE SYSTEMS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH PE TMA307 ADVANCED MATHEMATICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH PE TPE-301 THERMODYNAMICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH PE TPE302 GENERAL GEOLOGY.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH PE TPE304 PETROLEUM DRILLING ENGG-1.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH TCS 392 INTRODUCTION TO CRYPTOGRAPHY.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH TCS343 MATHEMATICAL FOUNDATIONS FOR ARTIFICIAL INTELLIGENCE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH TCS351 FUNDAMENTAL OF CLOUD COMPUTING AND BIG DATA.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH TEE301 ELECTRICAL CIRCUIT ANALYSIS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH TEE303 ELECTRICAL & ELECTRONICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH TMA316 DISCRETE STRUCTURES AND COMBINATORICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH TME 302 MATERIAL SCIENCE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH TME 306 ENGINEERING MECHANICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH TME311 MICROPROCESSORS & MICROCONTROLLER.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 3,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2024/BTECH TPE 303 FLUID AND PARTICLES MECHANICS.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 3,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2023/BTECH BIOTECHNOLOGY 3RD SEM DEC END TERM 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 3,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2023/BTECH CIVIL 3RD SEM DEC END TERM 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 3,
+        "branch": "CSSE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2023/BTECH CSE 3RD SEM DEC END TERM 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 3,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2023/BTECH ECE 3RD SEM DEC END TERM 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 3,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2023/BTECH EE 3RD SEM DEC END TERM 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 3,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2023/BTECH ME 3RD SEM DEC END TERM 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 3,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 3rd Sem-20260319T150448Z-3-001/B.Tech 3rd Sem/end/2023/BTECH PETROLEUM 3RD SEM DEC END TERM 2023.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH AEROSPACE ENGG  TAS401 ACADEMIC REPORT WRITING AND IPR.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH AEROSPACE ENGG TAS402 AERODYNAMICS-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH AEROSPACE ENGG TAS404 AIRCRAFT PERFORMANCE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH AEROSPACE ENGG TAS406 AEROSPACE MATERIALS AND MANUFACTURING TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH BIOTECH TBT408B PROGRAMMING FOR COMPUTATIONAL BIOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH BIOTECH TBT408C BIORESOURCE TECHNOLOGY FOR SUSTAINABLE DEVELOPMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH BIOTECHNOLOGY TBT401 RECOMBINANT DNA TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH BIOTECHNOLOGY TBT404 BIO-ANALYTICAL TECHNIQUE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH BIOTECHNOLOGY TBT405 ACADEMIC PAPER WRITING AND IPR.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH BIOTECHNOLOGY TBT406 ENVIRONMENTAL BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH BIOTECHNOLOGY TBT407 WASTE MANAGEMENT AND UPCYCLING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH BT TBT403 BIOPROCESS ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH CE TCE401 HYDRAULICS AND HYDRAULIC MACHINES.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH CE TCE404 CONCRETE TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH CE TCE412 FUNDAMENTALS OF GIS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH CIVIL ENGG TCE439 TOWN URBAN PLANNING AND MANAGEMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH CIVIL ENGG TCE499 BASIC GEOGRAPHICAL INFORMATION SYSTEM.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH CIVIL TCE403 SOIL MECHANICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH CSE BIOTECH TCS471 STATISTICAL DATA ANALYSIS WITH R.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH CSE TCS403 MICROPROCESSORS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH CSE TCS409 DESIGN AND ANALYSIS OF ALGORITHMS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH CSE TCS421 FUNDAMENTALS OF STASTICS AND AI.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH CSE TCS495 FUNDAMENTAL OF CYBER SECURITY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH ECE ESR TEC451 INTRODUCTION TO ROBOTICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH ECE IOT TEC491 SENSORS AND SIGNAL CONDITIONING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH ECE TEC401 COMMUNICATION SYSTEMS-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH ECE TEC402 ANALOG INTEGRATED CIRCUIT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH ECE TEC404 ELECTROMAGNETIC FIELD THEORY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH EE TEE402 INTRODUCTION TO ELECTRICAL ENERGY SOURCES.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH EE TEE404 DIGITAL ELECTRONICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH EE TMA401 MATHEMATICS-3.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH EE VAC402 ELECTRICAL SAFETY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH INTRODUCTION TO UNMANNED AERIAL SYSTEM TAS411 .pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH ME TME402 EMBEDDED SYSTEM.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH PE TMA403 NUMERICAL AND GEOSTATISTICAL METHODS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH PE TPE401 PETROLEUM GEOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH PE TPE402 RESERVOIR ENGINEERING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH PE TPE403 HEAT AND MASS TRANSFER.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH PE TPE404 APPLIED SEDIMENTOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH TAS406 SOLID MECHANICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH TAS412 INTRODUCTION TO SPACE SCIENCE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH TCE402 STRUCTURAL ANALYSIS-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH TCS402 FINITE AUTOMATA & FORMAL LANGUAGE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH TCS408 JAVA PROGRAMMING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH TCS408 PROGRAMMING IN JAVA.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH TCS451 VIRTUALIZATION AND CLOUD COMPUTING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH TCS464 DEEP LEARNING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH TME 407 FLUID MECHANICS AND FLUID MACHINES.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH TME406 MECHANICS OF MATERIALS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH TME410 AUTOMATION IN PRODUCTION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH TME412 AUTOMOTIVE MATERIALS AND MANUFACTURING TECHNIQUES.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECH TPE405 ACADEMIC REPORT WRITING AND IPR.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 4,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2025 JUNE/BTECHEE TEE403 SIGNAL AND SYSTEMS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 4,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2024/4TH SEM END TERM JUN 2024  BTECH ME.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 4,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2024/4TH SEM END TERM JUN 2024 B.TECH PETROLEUM.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 4,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2024/4TH SEM END TERM JUN 2024 BTECH BIOTECH.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 4,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2024/4TH SEM END TERM JUN 2024 BTECH CIVIL ENGINEERING.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 4,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2024/4TH SEM END TERM JUN 2024 CSE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 4,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2024/4TH SEM END TERM JUN 2024 ECE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 4,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2024/4TH SEM END TERM JUN 2024 EE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 4,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2023/4TH SEM END TERM JUNE 2023 BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 4,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2023/4TH SEM END TERM JUNE 2023 CIVIL.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 4,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2023/4TH SEM END TERM JUNE 2023 CSE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 4,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2023/4TH SEM END TERM JUNE 2023 ECE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 4,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2023/4TH SEM END TERM JUNE 2023 EE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 4,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2023/4TH SEM END TERM JUNE 2023 ME.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 4,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 4th Sem-20260319T150351Z-3-001/B.Tech 4th Sem/end/2023/4TH SEM END TERM JUNE 2023 PETROLEUM.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH AEROSPACE ENG TAS501 AIRCRAFT STRUCTURE-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH AEROSPACE ENGG TAS504 AIRCRAFT STABILITY AND CONTROL.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH AEROSPACE TAS502 AERODYNAMICS-2.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH AEROSPACE TAS511 CONTROL ENGINEERING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH BIOTECH TBT501 ANIMAL AND PLANT BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH BIOTECH TBT502 ENZYME TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH BIOTECH TBT505 FORENSIC BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH BIOTECH TBT505B FUNDAMENTAL OF AIML.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH BIOTECH TBT506 NANBIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH BIOTECH TBT507 BIOSIMILAR TECH.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH BIOTECH TBT509C CIRCULAR ECONOMY AND SUSTAINABILITY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH BIOTECH TCS542 INTRO TO AI.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH BIOTECHNOLOGY TBT503 FERMENTATION TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH BIOTECHNOLOGY TBT504 BIOINFORMATICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CE AIR AND NOISE POLLUTION TCE511.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CE TCE502 REINFORCED CEMENT CONCRETE DESIGN.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CE TCE599 ADVANCE GEOGRAPHICAL INFORMATION SYSTEMS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CE TPE302 GENERAL GEOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CIVIL ENGG TCE539 BUILDING INFORMATION MODELING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CIVIL TCE504 HYDROLOGY AND IRRIGATION ENGINEERING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CS TCS564 NATURAL LANGUAGE PROCESSING AND COMPUTER VISION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CSE TCS501 SYSTEM SOFTWARE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CSE TCS511 COMPUTER NETWORKS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CSE TCS549 DATA SCIENCE VISUALIZATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CSE TCS562 INTRO TO AI AND DS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CSE TCS584 FOUNDATION OF QUANTUM COMPUTING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CSE TCS595 SECURITY AND AUDITING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CSE TCS597 COMPUTER SYSTEM SECURITY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH CSE TCSE591 COMPUTER SYSTEM SECURITY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH ECE IOT TEC591 TRANSDUCERS ACTUATORS AND DISPLAY DEVICES.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH ECE TEC502 COMMUNICATION SYSTEM-2.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH ECE TEC503 MICROCONTROLLER AND EMBEDDED SYSTEMS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH ECE TEC504 ANTENNA AND WAVE PROPAGATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH ECE TEC541 CONTROL SYSTEM.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH ECE TEC551 SENSOR TECH.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH EE TEE501 POWER SYSTEM 1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH EE TEE502 CONTROL SYSTEMS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH EE TEE503 MICROPROCESSORS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH EE UCE501 DISASTER MANGEMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH ME ROBOTICS TME513.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH ME TME510 MECHANICAL MEASUREMENT AND METROLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH ME TME511 SOLAR ENERGY ENGINEERING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH ME TME515 SUPPLY CHAIN MANAGEMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH PE TPE 501 PETROLEUM GEOPHYSICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH PE TPE502 WLL LOGGING AND FORMATION EVALUATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH PE TPE503 PETROLEUM PRODUCTION ENGG-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH PE TPE504 PETROLEUM DRILLING ENG-2.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH PE TPE505 PETROLEUM REFINING ENGINEERING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH PE TPE511 MACHINE LEARNING FOR RESERVOIR CHARACTERIZATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH RENEWALE ENERGY TME509.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TBT508 STEM CELL TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TCE501 ADVANCED STRUCTURAL ANALYSI.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TCE503 GEOTECHNICAL AND FOUNDATION ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TCS 571 BIGDATA VISUALIZATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TCS502 OPERATING SYSTEMS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TCS503 API502 DATABASE MANAGEMENT SYSTEM.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TCS509 MACHINE LEARNING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TCS514 COMPUTER NETWORKS-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TCS542 INTRO TO AI.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TCS552 CLOUD BASED APP DEV.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TEC501 DIGITAL SIGNAL PROCESSING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TEE504 ELECTRICAL MACHINE DESIGN.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TME501 HEAT TRANSFER.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TME502 DESIGN OF MACHENE ELEMENT-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TME508 THEORY OF MACHINES.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2025 dec/BTECH TME514 AUTOMOTIVE FUELS AND LUBRICANTS.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 5,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2023/BTECH BIOTECH  5TH SEM END TERM DEC 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 5,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2023/BTECH CIVIL  5TH SEM END TERM DEC 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 5,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2023/BTECH CSE  5TH SEM END TERM DEC 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 5,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2023/BTECH ECE  5TH SEM END TERM DEC 2024.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 5,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2023/BTECH EE  5TH SEM END TERM DEC 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 5,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2023/BTECH ME AME  5TH SEM END TERM DEC 2023.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 5,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 5th Sem-20260319T150353Z-3-001/B.Tech 5th Sem/end/2023/BTECH PETROLEUM  5TH SEM END TERM DEC 2023.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "AE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH AEROSPACE TAS403 PROPULSION1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ABT",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH BIOTECH TCS471 STATISTICAL DATA ANALYSIS WITH R.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH BIOTECHNOLOGY TBT402 IMMUNOLOGY AND IMMUNOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH BIOTECHNOLOGY TBT602 PLANT BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH BIOTECHNOLOGY TBT603 BIO SEPARATION TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH BIOTECHNOLOGY TBT604A BIOSIMILAR TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH BIOTECHNOLOGY TBT604B BIOSENSORS AND BIOELECTRONICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH BIOTECHNOLOGY TBT604C MICROBIAL TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH CE TCE602 REINFORCED CEMENT CONCRETE-2.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH CIVIL ENGG TCE603 WATER RESOURCES ENGG-2.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH CIVIL ENGG TCE604 QUANTITY ESTIMATION AND COSTING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH CIVIL ENGG TCE605 TRANSPORTATION ENGINEERING-1.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH CSE TCS601 COMPILER DESIGN.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH CSE TCS611 SOFTWARE ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH CSE TCS619 NETWORK AND SYSTEM SECURITY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH CSE TCS679 NETWORK AND SYSTEM SECURITY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH CSE TCS691 IMAGE PROCESSING AND COMPUTER VISION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH ECE TEC403 MICROPROCESSOR AND ITS APPLICATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH ECE TEC601 WIRELESS COMMUNICATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH ECE TEC602 MICROWAVE ENGINEERING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH ECE TEC603 VLSI TECHNOLOGY AND DESIGN.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH ECE TOE610 OOPS USING C++.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH EE TEE601 POWER ELECTRONICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH EE TEE602 POWER SYSTEM-2.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH EE TEE608 HIGH VOLTAGE ENGINEERING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH MECHANICAL TME610 MECHANICAL VIBRATIONS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH PE TPE 605 PETROLEUM PRODUCTION ENGINEERING-2.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH PE TPE601 RESERVOIR MODELING AND SIMULATION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH PE TPE603 NATURAL GAS ENGINEERING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH PE TPE604 PETROLEUM DRILLING ENGINEERING 2.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH PE TPE605 DATA SCIENCE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH PE TPE611 ALTERNATE ENERGY RESOURCES.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH PETROLEUM ENGINEERING TPE 413 MUD LOGGING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TBT601 ANIMAL BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TCS 693 FULL STACK WEB DEVELOPMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TCS421 FUNDAMENTAL OF STATISTICS OF AI.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TCS604 COMPUTER NETWORKS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TCS651 DEVOPS ON CLOUDE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TCS662 MACHINE LEARNING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TCS671 BIG DATA STORAGE AND PROCESSING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TCS682 ADVANCED MACHINE LEARNING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TEE603 POWER SYSTEM PROTECTION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TME411 ADDITIVE MANUFACTURING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TME414 VENTURE DEVELOPMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 6,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TME602 DESIGN OF MACHINE ELEMENTS-2.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TME609 INDUSTRIAL ENGGINERING AND PROJECT MANAGEMENT.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TME614 FINITE ELEMENT METHOD.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TME617 PRESSURE DIE CASTING.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECH TME621 AUTOMOTIVE MECHATRONICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2025 JUNE/BTECHCSE TCS695 SECURITY AND AUDITING.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2024/6TH SEM END TERM JUN 2024  EE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2024/6TH SEM END TERM JUN 2024 BTECH BIOTECH.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2024/6TH SEM END TERM JUN 2024 BTECH CSE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2024/6TH SEM END TERM JUN 2024 CIVIL.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2024/6TH SEM END TERM JUN 2024 ECE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2024/6TH SEM END TERM JUN 2024 ME.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2024/6TH SEM END TERM JUN 2024 PETROLEUM.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 6,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2023/6TH SEM END TERM JUNE 2023 B.TECH BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 6,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2023/6TH SEM END TERM JUNE 2023 CIVIL ENGG..pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 6,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2023/6TH SEM END TERM JUNE 2023 CSE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 6,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2023/6TH SEM END TERM JUNE 2023 ECE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 6,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2023/6TH SEM END TERM JUNE 2023 EE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 6,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2023/6TH SEM END TERM JUNE 2023 ME.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 6,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 6th Sem-20260319T150358Z-3-001/B.Tech 6th Sem/end/2023/6TH SEM END TERM JUNE 2023 PETROLEUM.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 6,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH AUTOMOBILE ENGG TME 707.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH BIO- MEDICAL ELECTRONICS TOE 703.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH BIOTECHNOLOGY TBT705C HIMALAYAN BIODIVERSITY & BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH BT TBT 704 PYTHON.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH BT TBT702B RATIONAL DRUG DISCOVERY.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH BT TBT708 RESEARCH ETHICS & METHODOLOGY.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH CE TCE 712 GEOGRAHPIC INFORMATION SYSTEM.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH CSE TCS 761 CLOUD INFRASTRUCTURE SERVICES.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH CSE TCS756 HUMAN COMPUTER INTERACTION.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH CSE TIT 721 BUSINESS INTELLIGENCE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH CSE TOE703 INTELLECTUAL PROPERTY RIGHTS FOR ENGINEERS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH ECE TEC 731 DISASTER MANAGEMENT.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH ECE TEC 751 OPTICAL FIBER COMMUNICATION.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH ECE TEC755 WIRELESS SENSOR NETWORKS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH ECE TEC757 CMOS ANALOG CIRCUIT DESIGN.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH ECE TEC759 INTERNET OF THING AND ITS APPLICATION.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH EE TEE 706 UTILIZATION OF ELECTRICAL ENGG.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH ME TME 708 MECHATRONICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH PE TPE 717 ADVANCED EOR TECHNIQUE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH PE TPE712 RESERVOIR MANAGEMENT.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH PE TPE723 ADVANCED WELL STIMULKATION TECHNIQUE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH TCE 703 TRANSPORATION ENGG-2.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH TCE702 CONSTRUCTION MANAGEMENT AND PLANNING.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH TCS 704 ADVANCED COMPUTER ARCHITECTURE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH TCS 722 DATA WAREHOUSING & DATA MINING.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH TCS 750 CLOUD ORCHESTRATION AND LOAD BALANCING.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH TCS 783 DEEP LEARNING FOR FOUNDATION.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH TCS771 NATURAL LANGUAGE PROCESSING WITH BIG DATA.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH TCS799 SOFTWARE VERIFICATION VALIDATION AND TESTING.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH TEC 752 ASIC DESIGN AND FPGA.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH TEE 702 NON-CONVENTIONAL RESOURCES AND ENERGY SYSTEMS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH TOE 713 ARTIFICIAL INTELLIGENCE AND PATTERN RECOGNITION.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH TOE707 CRYPTOGRAPHY AND NETWORK SECURITY.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/BTECH TOE714 ARTIFICIAL INTELLIGENCE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/TBT 701 BTECH BT IPR BIOSAFETY AND BIOETHICS.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/TBT 702C BTECH BT ENZYMES TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/TBT 703 A PHARMACEUTICAL BIOTECHNOLOGY.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/TBT 705B FOOD & NUTRITION SCIENCE BTECH BT.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/TCS 703 BTECH COMPUTER NETWORKS-2.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/TEC 701 BTECH ECE PRINCIPLES OF MANAGEMENT.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/TEE701 BTECH ELECTRIC DRIVES.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 7,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2024/TPE 720 OIL AND GAS FIELD DEVELOPMENT PLANNING AND ECONOMICS.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2023/BTECH BIOTECH 7TH SEM END TERM DEC 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2023/BTECH CIVIL 7TH SEM END TERM DEC 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2023/BTECH CSE 7TH SEM END TERM DEC 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2023/BTECH ECE 7TH SEM END TERM DEC 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2023/BTECH EE 7TH SEM END TERM DEC 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2023/BTECH ME 7TH SEM END TERM DEC 2023.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 7,
+        "branch": "PE",
+        "type": "end",
+        "paper": "B.Tech 7th Sem-20260319T150401Z-3-001/B.Tech 7th Sem/end/2023/BTECH PETROLEUM 7TH SEM END TERM DEC 2023.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH BIOTECHNOLOGY TBT802B ENTEPRENEURSHIP DEVELOPMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH BT TBT801 OMICS TECHNOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH CE TCE813 HYDROPOWER ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH CSE TCS855 AGILE SOFTWARE ENGG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH CSE TDM881 DISASTER MANG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH CSE TOE802 PROJECT MANG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH CSE TOE803 CORPORATE LEADERSHIP.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH EC TEC856 NEURAL NETWORK AND MACHINE LEARNING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH ECE TEC851 SATELITE COMMUNICATIONS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH ECE TOE810 COMPUTER ARCHITECTURE.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH EE TEE802 WIND AND SOLAR ENERGY SYSTEMS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH EE TOE801 EXPERT SYSTEM & FUZZY LOGIC.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH EE TOE805 ROBOTICS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH ME TME815 TRIBOLOGY.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH ME TRA801 AUTOMATIC CONTROL.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH ME UCE801 DISASTER MANAGEMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH TAE801 VEHICLE BODY SAFETY AND CONTROL.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH TCE801 EARTHQUAKE RESISTANT DESIGN OF BUILDINGS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH TCE851 DISASTER MANG.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH TCS821 SOFT COMPUTING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH TCS822 MOBILE APPLICATION DEVELOPMENT.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH TCS823 MULTIMEDIA SYSTEMS AND DATA COMPRESSION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH TCS826 UNIX SYSTEMS PROGRAMMING.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH TCS851 STORAGE NETWORKS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH TCS852 PATTERN RECOGNITION.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH TEC853 DIGITAL SYSTEM USING VHDL.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH TEC857 MOBILE AD HOC NETWORKS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH TME805 ENTREPRENEURSHIP ESSENTIALS.pdf"
+    },
+    {
+        "year": 2025,
+        "semester": 8,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2025 JUNE/BTECH TOE811 MOBILE COMPUTING.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 8,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2024/8TH SEM END TERM JUN 2024 BTECH BIOTECH.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 8,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2024/8TH SEM END TERM JUN 2024 CIVIL 2.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 8,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2024/8TH SEM END TERM JUN 2024 CIVIL.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2024/8TH SEM END TERM JUN 2024 CSE 2.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2024/8TH SEM END TERM JUN 2024 CSE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 8,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2024/8TH SEM END TERM JUN 2024 ECE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 8,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2024/8TH SEM END TERM JUN 2024 EE.pdf"
+    },
+    {
+        "year": 2024,
+        "semester": 8,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2024/8TH SEM END TERM JUN 2024 ME.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 8,
+        "branch": "BT",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2023/8TH SEM END TERM 2023 B.TECH BIOTECH.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 8,
+        "branch": "CE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2023/8TH SEM END TERM 2023 B.TECH CIVIL.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 8,
+        "branch": "CSE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2023/8TH SEM END TERM 2023 B.TECH CSE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 8,
+        "branch": "ECE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2023/8TH SEM END TERM 2023 B.TECH ECE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 8,
+        "branch": "EE",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2023/8TH SEM END TERM 2023 B.TECH EE.pdf"
+    },
+    {
+        "year": 2023,
+        "semester": 8,
+        "branch": "ME",
+        "type": "end",
+        "paper": "B.Tech 8th Sem-20260319T150404Z-3-001/B.Tech 8th Sem/end/2023/8TH SEM END TERM 2023 B.TECH ME.pdf"
+    }
+]

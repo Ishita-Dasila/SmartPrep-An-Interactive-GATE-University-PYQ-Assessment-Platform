@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SmartPrep - Home</title>
+  <style>
+
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background: #f6f7fb;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* ================= SIDEBAR ================= */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #0f0f0f;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.3s;
+  z-index: 1000;
+}
+
+.sidebar a {
+  display: block;
+  color: #ccc;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+.sidebar a:hover {
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 40px;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #e6e6e6;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.navbar-links a {
+  margin-left: 18px;
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.navbar-links a:hover {
+  background: #111;
+  color: white;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+/* ================= HERO ================= */
+.hero {
+  height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("login.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 44px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.story-section {
+  padding: 120px 40px;
+  background: #f8f9fb;
+}
+
+/* centered storytelling container */
+.story-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+/* main title */
+.story-container h2 {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+/* intro paragraph */
+.story-sub {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.9;
+  margin-bottom: 60px;
+}
+
+/* section blocks (NOT cards anymore) */
+.story-box {
+  margin-bottom: 50px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* headings inside story */
+.story-box h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #111;
+  letter-spacing: -0.3px;
+}
+
+/* paragraphs */
+.story-box p {
+  font-size: 17px;
+  color: #555;
+  line-height: 1.9;
+  max-width: 850px;
+}
+
+/* full problem section highlight (subtle, not boxy) */
+.story-box.full {
+  padding: 0;
+  border-left: 3px solid #111;
+  padding-left: 18px;
+  margin-bottom: 60px;
+}
+
+/* flow text styling */
+.story-container .flow {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+}
+
+/* subtle separation like Apple scroll sections */
+.story-box::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #e9e9e9;
+  margin-top: 40px;
+}
+
+/* remove any hover effects */
+.story-box:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.why-smartprep {
+  padding: 100px 40px;
+  background: #ffffff;
+}
+
+/* centered but airy */
+.why-header {
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+.why-header h2 {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 16px;
+}
+
+.why-header p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* ===== CORE STORY BLOCK (no box feel) ===== */
+.why-core-box {
+  max-width: 900px;
+  margin: 0 auto 70px auto;
+  text-align: center;
+  padding: 20px 10px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.why-core-box h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+.why-core-box p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.8;
+}
+
+.flow {
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #111;
+}
+
+/* ===== FEATURE SECTION (VERTICAL STORY STYLE) ===== */
+.why-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 80px; /* big Apple-style spacing */
+  max-width: 900px;
+  margin: auto;
+}
+
+/* remove card look completely */
+.why-card {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  transition: none;
+}
+
+/* section titles */
+.why-card h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #111;
+  letter-spacing: -0.3px;
+}
+
+/* paragraph */
+.why-card p {
+  font-size: 17px;
+  color: #555;
+  line-height: 1.9;
+  max-width: 750px;
+}
+
+/* list becomes clean Apple-style bullets */
+.why-card ul {
+  margin-top: 14px;
+  padding-left: 18px;
+}
+
+.why-card ul li {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+/* subtle divider feel */
+.why-card::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #eee;
+  margin-top: 40px;
+}
+
+/* remove hover effects (Apple style = calm) */
+.why-card:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+/* CTA still bold */
+.why-cta {
+  margin-top: 80px;
+  padding: 60px 30px;
+  background: #111;
+  color: white;
+  border-radius: 0;
+  text-align: center;
+}
+
+.why-cta p {
+  color: #bbb;
+  max-width: 700px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* ================= BUTTON ================= */
+button {
+  padding: 12px 22px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 15px;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: #f1f1f1;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  text-align: center;
+  padding: 18px;
+  background: #111;
+  color: white;
+  font-size: 14px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .navbar {
+    padding: 14px 20px;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<div id="mySidebar" class="sidebar">
+  <span class="closebtn" onclick="closeNav()">x</span>
+  <a href="javascript:void(0)" onclick="guardedNav(event, 'samplegatequiz.html')"><b>GATE Quiz</b></a>
+  <a href="javascript:void(0)" onclick="guardedNav(event, 'descriptive.html')"><b>University Papers</b></a>
+
+  <a href="javascript:void(0)" onclick="guardedNav(event, 'questionbank.html')"><b>Programming Question Bank</b></a>
+</div>
+
+<!-- Navbar -->
+<div class="navbar">
+  <div style="display:flex; align-items:center;">
+    <span class="menu-icon" onclick="openNav()">☰</span>
+    <h2 style="margin-left:10px;">SmartPrep</h2>
+  </div>
+  <div class="navbar-links">
+    <a href="samplefront.html"><b>Home</b></a>
+    <a href="samplelogin.html"><b>Login</b></a>
+    <a href="sampleregister.html"><b>Register</b></a>
+    <a href="sampledashboard.html"><b>Dashboard</b></a>
+  </div>
+</div>
+
+<!-- Hero -->
+<div class="hero">
+  <div class="hero-text">
+    <h1>Structured Practice <br>for Smarter Results<br></h1>
+    <p>SmartPrep helps you solve Previous Year Questions, <br>detect weak topics, and <br>maintain your study streak.</p>
+    <button onclick="openNav()">Get Started</button>
+  </div>
+</div>
+
+<div class="story-section">
+
+  <div class="story-container">
+
+    <h2>Why SmartPrep Exists</h2>
+
+    <p class="story-sub">
+      Our project “SmartPrep: An Interactive GATE & University PYQ Assessment Platform”
+      is a full-stack web application designed to transform static previous year question (PYQ) papers
+      into an interactive learning system.
+    </p>
+
+    <!-- PROBLEM -->
+    <div class="story-box full">
+
+      <h3>The Problem</h3>
+
+      <p>
+        In traditional exam preparation, students rely on unorganized PDF files and scattered resources
+        often shared through Google Drive or multiple websites. This makes practice inefficient,
+        as students cannot properly attempt questions, evaluate their answers, or track improvement over time.
+        There is no structured feedback system, no performance tracking, and no guided learning path.
+      </p>
+
+    </div>
+
+    <!-- SECOND LAYER GRID -->
+    <div class="story-grid">
+
+      <!-- SOLUTION -->
+      <div class="story-box">
+        <h3>The Solution</h3>
+        <p>
+          SmartPrep converts static PYQ material into an interactive platform where students can actively
+          solve questions, check their understanding, and receive structured evaluation instead of passive reading.
+        </p>
+      </div>
+
+      <!-- SYSTEM FLOW -->
+      <div class="story-box">
+        <h3>Learning System Flow</h3>
+        <p>
+          The platform follows a continuous improvement cycle:
+          <b>Practice → Evaluate → Analyze → Improve → Master</b>
+        </p>
+      </div>
+
+      <!-- ORIGINAL PURPOSE EXTENSION -->
+      <div class="story-box">
+        <h3>What SmartPrep Does</h3>
+        <p>
+          It brings together GATE quizzes, university descriptive practice, programming question banks,
+          and performance dashboards into one unified learning ecosystem.
+        </p>
+      </div>
+
+      <!-- IMPACT -->
+      <div class="story-box">
+        <h3>Outcome</h3>
+        <p>
+          Students gain structured preparation, better conceptual clarity, and continuous performance tracking,
+          leading to more efficient and confident exam preparation.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+<div class="why-smartprep">
+
+  <div class="why-header">
+    <h2>SmartPrep Features</h2>
+    
+  </div>
+
+  <!-- CORE EXPLANATION BLOCK -->
+  <div class="why-core">
+
+    <div class="why-core-box">
+      <h3>A Complete Preparation System, Not Just a Question Bank</h3>
+      <p>
+        SmartPrep is designed as an end-to-end learning platform where every action is tracked,
+        analyzed, and improved. Instead of random practice, you follow a structured flow:
+      </p>
+      <p class="flow">
+        <b>Practice → Evaluate → Analyze → Improve → Master</b>
+      </p>
+    </div>
+
+  </div>
+
+  <!-- FEATURE MODULES -->
+  <div class="why-grid">
+
+    <!-- GATE QUIZ -->
+    <div class="why-card">
+      <h3>GATE Quiz Module</h3>
+      <p>
+        A timed MCQ-based environment designed specifically for competitive exams like GATE.
+        It simulates real exam pressure so you improve speed, accuracy, and decision-making.
+      </p>
+      <ul>
+        <li>Timed quizzes for different subjects</li>
+        <li>Instant scoring system</li>
+        <li>Performance tracking per attempt</li>
+        <li>Exam-like interface for real practice</li>
+      </ul>
+    </div>
+
+    <!-- DESCRIPTIVE -->
+    <div class="why-card">
+      <h3>Descriptive Practice Module</h3>
+      <p>
+        Practice structured answers for university exams with automated evaluation based on keywords and concepts.
+Get feedback on missing keyworda and weak units.
+      </p>
+      <ul>
+        <li>Keyword-based answer evaluation and scoring</li>
+        <li>Missing keyword detection in responses</li>
+        <li>Suggested keywords for answer improvement</li>
+        <li>Subject-wise weak unit detection</li>
+      </ul>
+    </div>
+
+    <!-- PROGRAMMING -->
+    <div class="why-card">
+      <h3>Programming Question Bank</h3>
+      <p>
+        A curated collection of DSA and coding problems, where every question comes with AI-generated explanations, suggestions for optimized solutions, and video references.
+      </p>
+      <ul>
+        <li>DSA + coding interview questions</li>
+        <li>AI-generated suggestion for step-by-step solution</li>
+        <li>Code formatting with explanations</li>
+        <li>YouTube video suggestions for revision</li>
+      </ul>
+    </div>
+
+    <!-- DASHBOARD -->
+    <div class="why-card">
+      <h3>Smart Analytics Dashboard</h3>
+      <p>
+        A performance tracking system that visualizes your learning journey.
+        It helps you understand where you stand and what to improve next.
+      </p>
+      <ul>
+        <li>Score trends over time</li>
+        <li>Weak unit detection</li>
+        <li>Accuracy and attempt analysis</li>
+        <li>Daily streak tracking system</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- FINAL CTA -->
+  <div class="why-cta">
+    <h3>Smart Preparation is Structured Preparation</h3>
+    <p>
+      SmartPrep turns unorganized studying into a guided learning path that continuously adapts to your performance.
+    </p>
+    
+  </div>
+
+</div>
+<div class="footer">© 2026 SmartPrep | Built for Smart Learners</div>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "200px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+  }
+
+  
+  function isLoggedIn() {
+    return sessionStorage.getItem("loggedIn") === "true";
+  }
+
+  function guardedNav(e, page) {
+    e.preventDefault();
+    if (isLoggedIn()) {
+      window.location.href = page;
+    } else {
+      // Save the page user wants to visit
+      localStorage.setItem("nextPage", page);
+      // Redirect to login
+      window.location.href = "samplelogin.html";
+    }
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SmartPrep Advanced Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body { 
+      font-family: Arial; 
+      margin:0; 
+      background:#f4f4f4; 
+    }
+    .container { 
+      padding:20px; 
+    }
+    .card { 
+      background:white; 
+      padding:20px; 
+      margin:15px 0; 
+      border-radius:10px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.1); 
+    }
+    .big { 
+      font-size:28px; 
+      font-weight:bold; 
+    }
+    .label { 
+      color:#666; 
+      font-size:14px; 
+    }
+    .navbar { 
+      display:flex; 
+      justify-content:space-between; 
+      padding:20px 60px;
+      background:white; 
+      border-bottom:1px solid #ddd; 
+      align-items:center; 
+    }
+    .navbar h2 { 
+      margin:0; 
+      font-size:22px; 
+      font-weight:bold; 
+      color:black; 
+    }
+
+    .navbar a { 
+      margin-left:20px; 
+      text-decoration:none; 
+      color:black; 
+      font-weight:bold; 
+    }
+    .pill { 
+      display:inline-block; 
+      background:#eee; 
+      padding:5px 10px; 
+      margin:3px; 
+      border-radius:10px; 
+    }
+    #hamburger { 
+      background:none; 
+      border:none; 
+      font-size:26px; 
+      cursor:pointer; 
+      color:black; 
+      margin-right:20px; 
+    }
+    #logoutBtn { 
+      margin-left:20px; 
+      background:#e53935; 
+      color:white; 
+      border:none;
+      cursor:pointer; 
+      font-size:14px; 
+      font-family:Arial; 
+      font-weight:bold;
+      padding:8px 18px; 
+      border-radius:6px; 
+      transition:background 0.2s; 
+    }
+    #logoutBtn:hover { 
+      background:#b71c1c; 
+    }
+    #sidebar { 
+      position:fixed; 
+      top:0; left:-280px; 
+      width:260px; 
+      height:100%;
+      background:black; 
+      color:white; 
+      padding:30px 20px; 
+      z-index:1000;
+      transition:left 0.3s ease; 
+      overflow-y:auto; 
+    }
+    #sidebar.open { 
+      left:0; 
+    }
+    #sidebar h3 { 
+      color:white; 
+      margin-top:0; 
+    }
+    #sidebar label { 
+      display:block; 
+      margin-top:15px; 
+      font-size:13px; 
+      color:#ccc; 
+    }
+    #sidebar select { 
+      width:100%; 
+      padding:8px; 
+      margin-top:5px; 
+      border-radius:6px;
+      border:none; 
+      background:#222; 
+      color:white; 
+      font-size:14px; 
+    }
+    #applyFilter { 
+      margin-top:20px; 
+      width:100%; 
+      padding:10px; 
+      background:#4CAF50;
+      color:white; 
+      border:none; 
+      border-radius:6px; 
+      cursor:pointer; 
+      font-size:15px; 
+    }
+    #closeSidebar { 
+      background:none; 
+      border:none; 
+      color:white; 
+      font-size:22px;
+      cursor:pointer; 
+      float:right; 
+    }
+    #overlay { 
+      display:none; 
+      position:fixed; 
+      top:0; 
+      left:0; 
+      width:100%; 
+      height:100%;
+      background:rgba(0,0,0,0.4); 
+      z-index:999; 
+    }
+    .profile-banner { 
+      background:linear-gradient(135deg, #1a1a1a, #3a3a3a);
+      border-radius:12px; 
+      padding:30px 40px; 
+      margin-bottom:20px;
+      display:flex; 
+      align-items:center; 
+      gap:30px; 
+      color:white;
+      box-shadow:0 8px 20px rgba(0,0,0,0.2); 
+    }
+    .profile-avatar { 
+      width:70px; 
+      height:70px; 
+      border-radius:50%; 
+      background:#fff;
+      color:#1a1a1a; 
+      font-size:28px; 
+      font-weight:bold;
+      display:flex; 
+      align-items:center; 
+      justify-content:center; 
+      flex-shrink:0; 
+    }
+    .profile-info { 
+      flex:1; 
+    }
+    .profile-info h2 { 
+      margin:0 0 5px 0; 
+      font-size:22px; 
+    }
+    .profile-info p  { 
+      margin:0; 
+      font-size:14px; 
+      color:#bbb; 
+    }
+    .profile-stats { 
+      display:flex; 
+      gap:15px; 
+      flex-wrap:wrap; 
+    }
+    .profile-stat { 
+      text-align:center; 
+      background:rgba(255,255,255,0.08);
+      border-radius:10px; 
+      padding:15px 25px; 
+    }
+    .profile-stat .ps-num   { 
+      font-size:32px; 
+      font-weight:bold; 
+      color:#fff; 
+    }
+    .profile-stat .ps-label { 
+      font-size:12px; 
+      color:#aaa; 
+      margin-top:4px; 
+    }
+    #filteredStats { 
+      display:none; 
+      background:white; 
+      border-radius:10px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.1); 
+      padding:20px 30px; margin:15px 0; 
+    }
+    #filteredStats .fs-title { 
+      font-size:13px; 
+      color:#666; 
+      margin-bottom:15px;
+      font-weight:bold; 
+      text-transform:uppercase; 
+      letter-spacing:0.5px; 
+    }
+    #filteredStats .fs-grid { 
+      display:grid; 
+      grid-template-columns:repeat(3, 1fr); 
+      gap:20px; 
+    }
+    #filteredStats .fs-item { 
+      text-align:center; 
+      padding:15px; 
+      border-radius:8px; 
+      background:#f9f9f9; 
+    }
+    #filteredStats .fs-item .fs-num   { 
+      font-size:30px; 
+      font-weight:bold; 
+      color:#1a1a1a; 
+    }
+    #filteredStats .fs-item .fs-label { 
+      font-size:12px; 
+      color:#888; 
+      margin-top:5px; 
+    }
+    #filteredStats .fs-item.best  .fs-num { 
+      color:#4CAF50; 
+    }
+    #filteredStats .fs-item.avg   .fs-num { 
+      color:#1976D2; 
+    }
+    #filteredStats .fs-item.total .fs-num { 
+      color:#F57C00; 
+    }
+  </style>
+</head>
+<body>
+
+<div id="sidebar">
+  <button id="closeSidebar">&#x2715;</button>
+  <h3>Filter Tests</h3>
+  <label for="filterSem">Semester</label>
+  <select id="filterSem">
+    <option value="">-- Select --</option>
+    <option>1</option><option>2</option><option>3</option><option>4</option>
+    <option>5</option><option>6</option><option>7</option><option>8</option>
+  </select>
+  <label for="filterBranch">Branch</label>
+  <select id="filterBranch">
+    <option value="">-- Select --</option>
+    <option>CSE</option><option>ECE</option><option>ME</option>
+    <option>CE</option><option>EE</option><option>IT</option>
+  </select>
+  <label for="filterType">Type</label>
+  <select id="filterType">
+    <option value="">-- Select --</option>
+    <option value="mid">Mid</option>
+    <option value="end">End</option>
+  </select>
+  <label for="filterSubject">Subject</label>
+  <select id="filterSubject">
+    <option value="">-- Select --</option>
+  </select>
+  <button id="applyFilter">Apply Filter</button>
+</div>
+
+<div id="overlay"></div>
+
+<div class="navbar">
+  <button id="hamburger">&#9776;</button>
+  <h2>SmartPrep - Dashboard</h2>
+  <div>
+    <a href="samplefront.html">Home</a>
+    <a href="samplelogin.html">Login</a>
+    <a href="sampleregister.html">Register</a>
+    <a href="sampledashboard.html">Dashboard</a>
+    <button id="logoutBtn">Logout</button>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="profile-banner">
+    <div class="profile-avatar" id="profileAvatar">U</div>
+    <div class="profile-info">
+      <h2 id="profileName">Loading...</h2>
+      <p id="profileEmail">-</p>
+    </div>
+    <div class="profile-stats">
+      <div class="profile-stat">
+        <div class="ps-num" id="profileTotal">0</div>
+        <div class="ps-label">Tests Attempted</div>
+      </div>
+      <div class="profile-stat">
+        <div class="ps-num" id="profileRank">-</div>
+        <div class="ps-label">Rank</div>
+      </div>
+      <div class="profile-stat">
+        <div class="ps-num" id="profileStreak">0</div>
+        <div class="ps-label">GATE Streak</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="filteredStats">
+    <div class="fs-title" id="filteredLabel">Filtered Results</div>
+    <div class="fs-grid">
+      <div class="fs-item best">
+        <div class="fs-num" id="fsBest">-</div>
+        <div class="fs-label">Best Score</div>
+      </div>
+      <div class="fs-item avg">
+        <div class="fs-num" id="fsAvg">-</div>
+        <div class="fs-label">Average Score</div>
+      </div>
+      <div class="fs-item total">
+        <div class="fs-num" id="fsTotal">-</div>
+        <div class="fs-label">Tests Attempted</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="label">Overall Score Trend</div>
+    <canvas id="chart"></canvas>
+  </div>
+
+  <div class="card" id="weakCard" style="display:none;">
+    <div class="label">Weak Topics</div>
+    <div id="weakTopics"></div>
+  </div>
+
+  <div class="card" id="feedbackCard" style="display:none;">
+    <div class="label">AI Feedback</div>
+    <div id="aiFeedback"></div>
+  </div>
+
+</div>
+
+<script>
+  // Redirect if not logged in
+  if (!sessionStorage.getItem("loggedIn")) {
+    window.location.href = "samplelogin.html";
+  }
+
+  // Get current logged-in user info
+  let currentUser = sessionStorage.getItem("currentUser") || "";
+  let userName    = sessionStorage.getItem("currentUserName") || "";
+
+  document.getElementById("profileName").textContent  = userName  || "User";
+  document.getElementById("profileEmail").textContent = currentUser || "-";
+  document.getElementById("profileAvatar").textContent = userName ? userName.trim()[0].toUpperCase() : "U";
+
+  let history = [];
+
+  // Fetch history from server
+  fetch('http://localhost:3000/api/history/' + encodeURIComponent(currentUser))
+    .then(res => res.json())
+    .then(data => {
+      history = data;
+      
+      document.getElementById("profileTotal").textContent = history.length;
+      document.getElementById("profileRank").textContent = history.length > 0
+        ? "#" + (Math.floor(Math.random() * 100) + 1)
+        : "-";
+      document.getElementById("profileStreak").textContent = calcStreak("gate");
+      
+      renderChart(history);
+    })
+    .catch(err => {
+      console.error('Failed to load history:', err);
+    });
+
+  function calcStreak(type) {
+    let arr = history
+      .filter(h => h && h.type === type)
+      .sort((a, b) => new Date(a.date) - new Date(b.date));
+    if (arr.length === 0) return 0;
+    let streak = 1;
+    for (let i = arr.length - 1; i > 0; i--) {
+      let diff = (new Date(arr[i].date) - new Date(arr[i-1].date)) / (1000*60*60*24);
+      if (diff === 1) streak++; else break;
+    }
+    return streak;
+  }
+
+  let chart = null;
+
+  function renderChart(data) {
+    if (chart) chart.destroy();
+    let ctx   = document.getElementById("chart");
+    let valid = data.filter(h => h && typeof h.score === "number");
+
+    if (valid.length === 0) {
+      chart = new Chart(ctx, {
+        type: "line",
+        data: {
+          labels: ["No data yet"],
+          datasets: [{
+            label: "Score",
+            data: [0],
+            borderColor: "#ccc",
+            backgroundColor: "rgba(200,200,200,0.1)",
+            tension: 0.3,
+            fill: true
+          }]
+        },
+        options: { scales: { y: { beginAtZero: true } } }
+      });
+      return;
+    }
+
+    chart = new Chart(ctx, {
+      type: "line",
+      data: {
+        labels: valid.map(h => h.date),
+        datasets: [{
+          label: "Score",
+          data: valid.map(h => h.score),
+          borderColor: "#4CAF50",
+          backgroundColor: "rgba(76,175,80,0.1)",
+          tension: 0.3,
+          fill: true
+        }]
+      },
+      options: { scales: { y: { beginAtZero: true } } }
+    });
+  }
+
+  function renderWeakTopics(data) {
+    let topicMap = {};
+    data.forEach(h => {
+      if (!h || typeof h.score !== "number") return;
+      if (!h.keywordsTotal || h.keywordsTotal === 0) return;
+      let ratio     = h.keywordsMatched / h.keywordsTotal;
+      let unitLabel = h.unit || "Unknown Unit";
+      let key = (h.subject || "Unknown") + " — " + unitLabel;
+      if (!topicMap[key]) topicMap[key] = { total: 0, count: 0 };
+      topicMap[key].total += ratio;
+      topicMap[key].count++;
+    });
+    let weakHTML = "";
+    for (let t in topicMap) {
+      if (topicMap[t].total / topicMap[t].count < 0.4)
+        weakHTML += `<span class='pill'>${t}</span>`;
+    }
+    document.getElementById("weakTopics").innerHTML = weakHTML || "No weak topics found.";
+  }
+
+  function renderFeedback(data) {
+    let feedback = "";
+    let valid = data.filter(h => h && typeof h.score === "number" && h.keywordsTotal > 0);
+    valid.slice(-3).forEach(h => {
+      let ratio     = h.keywordsMatched / h.keywordsTotal;
+      let unitLabel = h.unit || "Unknown Unit";
+      let label     = (h.subject || "Unknown") + " (" + unitLabel + ")";
+      feedback += ratio < 0.4
+        ? `<p>&#9888; Improve <b>${label}</b>: use more keywords.</p>`
+        : `<p>&#10003; Good job in <b>${label}</b></p>`;
+    });
+    document.getElementById("aiFeedback").innerHTML = feedback || "<p>No feedback yet.</p>";
+  }
+
+  function renderFilteredStats(data, label) {
+    let scores = data.filter(h => h && typeof h.score === "number").map(h => h.score);
+    if (scores.length === 0) {
+      document.getElementById("fsBest").textContent  = "0";
+      document.getElementById("fsAvg").textContent   = "0";
+      document.getElementById("fsTotal").textContent = "0";
+    } else {
+      document.getElementById("fsBest").textContent  = Math.max(...scores);
+      document.getElementById("fsAvg").textContent   = Math.round(scores.reduce((a,b) => a+b, 0) / scores.length);
+      document.getElementById("fsTotal").textContent = scores.length;
+    }
+    document.getElementById("filteredLabel").textContent   = label || "Filtered Results";
+    document.getElementById("filteredStats").style.display = "block";
+  }
+
+  document.getElementById("logoutBtn").addEventListener("click", function () {
+    sessionStorage.removeItem("loggedIn");
+    sessionStorage.removeItem("currentUser");
+    sessionStorage.removeItem("currentUserName");
+    window.location.href = "samplelogin.html";
+  });
+
+  document.getElementById("hamburger").addEventListener("click", function () {
+    document.getElementById("sidebar").classList.add("open");
+    document.getElementById("overlay").style.display = "block";
+  });
+  document.getElementById("closeSidebar").addEventListener("click", function () {
+    document.getElementById("sidebar").classList.remove("open");
+    document.getElementById("overlay").style.display = "none";
+  });
+  document.getElementById("overlay").addEventListener("click", function () {
+    document.getElementById("sidebar").classList.remove("open");
+    document.getElementById("overlay").style.display = "none";
+  });
+
+  let allKeywords = [];
+  fetch("keywords.json")
+    .then(res => res.json())
+    .then(data => { allKeywords = data; })
+    .catch(err => { console.warn("keywords.json not loaded:", err); });
+
+  function updateSubjectDropdown() {
+    let sem    = document.getElementById("filterSem").value;
+    let branch = document.getElementById("filterBranch").value;
+    let sel    = document.getElementById("filterSubject");
+    sel.innerHTML = '<option value="">-- Select --</option>';
+    if (!sem || !branch) return;
+    let seen = {};
+    allKeywords.forEach(entry => {
+      if (String(entry.semester) === String(sem) &&
+          entry.branch === branch &&
+          entry.subject_name &&
+          !seen[entry.subject_name]) {
+        seen[entry.subject_name] = true;
+        let opt = document.createElement("option");
+        opt.value = entry.subject_name;
+        opt.textContent = entry.subject_name;
+        sel.appendChild(opt);
+      }
+    });
+  }
+
+  document.getElementById("filterSem").addEventListener("change", updateSubjectDropdown);
+  document.getElementById("filterBranch").addEventListener("change", updateSubjectDropdown);
+
+  document.getElementById("applyFilter").addEventListener("click", function () {
+    let sem     = document.getElementById("filterSem").value;
+    let type    = document.getElementById("filterType").value;
+    let subject = document.getElementById("filterSubject").value;
+
+    let filtered = history.filter(h => {
+      if (!h || typeof h.score !== "number") return false;
+      if (sem     && h.semester && String(h.semester) !== String(sem)) return false;
+      if (type    && h.type     && h.type    !== type)                 return false;
+      if (subject && h.subject  && h.subject !== subject)              return false;
+      return true;
+    });
+
+    let label = "Filtered Results";
+    if (subject)          label = subject;
+    else if (sem && type) label = "Sem " + sem + " — " + type.toUpperCase();
+    else if (sem)         label = "Semester " + sem;
+    else if (type)        label = type.toUpperCase() + " Exams";
+
+    renderFilteredStats(filtered, label);
+    renderChart(filtered);
+    renderWeakTopics(filtered);
+    renderFeedback(filtered);
+
+    document.getElementById("weakCard").style.display     = "block";
+    document.getElementById("feedbackCard").style.display = "block";
+    document.getElementById("sidebar").classList.remove("open");
+    document.getElementById("overlay").style.display = "none";
+  });
+</script>
+
+</body>
+</html>
